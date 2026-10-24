@@ -1679,9 +1679,212 @@
         height: 44px;
       }
     }
+
+    /* ==========================================================================
+       專屬密碼鎖保護畫面 (PIN Lock Screen)
+       ========================================================================== */
+    body.vault-locked {
+      overflow: hidden !important;
+      height: 100vh !important;
+    }
+    body.vault-locked > *:not(#pin-lock-overlay):not(script) {
+      filter: blur(18px);
+      pointer-events: none;
+      user-select: none;
+    }
+    #pin-lock-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: var(--bg-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      transition: opacity 0.35s ease, visibility 0.35s ease;
+    }
+    #pin-lock-overlay.unlocked {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .pin-lock-card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--bg-card);
+      border: 2px solid var(--border-strong);
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: var(--shadow-md);
+      text-align: center;
+    }
+    .pin-lock-badge {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-primary);
+      margin-bottom: 12px;
+    }
+    .pin-lock-title {
+      font-family: 'Noto Serif TC', serif;
+      font-size: 1.45rem;
+      font-weight: 900;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+    .pin-lock-sub {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-bottom: 22px;
+    }
+    .pin-dots {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .pin-dot {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid var(--border-strong);
+      background: transparent;
+      transition: all 0.15s ease;
+    }
+    .pin-dot.filled {
+      background: var(--accent-primary);
+      border-color: var(--accent-primary);
+      transform: scale(1.12);
+    }
+    .pin-dot.error {
+      background: #DC2626;
+      border-color: #DC2626;
+      animation: pinShake 0.35s ease;
+    }
+    @keyframes pinShake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-6px); }
+      75% { transform: translateX(6px); }
+    }
+    .pin-input-hidden {
+      width: 100%;
+      padding: 10px 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.25rem;
+      letter-spacing: 0.35em;
+      text-align: center;
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      outline: none;
+    }
+    .pin-input-hidden:focus {
+      border-color: var(--accent-primary);
+    }
+    .pin-keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .pin-key {
+      padding: 14px 0;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    .pin-key:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+    }
+    .pin-key:active {
+      transform: scale(0.96);
+    }
+    .pin-remember-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 0.84rem;
+      color: var(--text-secondary);
+    }
+    .pin-error-msg {
+      min-height: 20px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #DC2626;
+      margin-bottom: 8px;
+    }
   </style>
 </head>
-<body>
+<body class="vault-locked">
+
+  <!-- 🔒 專屬私人密碼鎖覆蓋層 -->
+  <div id="pin-lock-overlay">
+    <div class="pin-lock-card">
+      <div class="pin-lock-badge">🔒 PRIVATE KNOWLEDGE VAULT</div>
+      <h2 class="pin-lock-title">Leo 的私人知識進化艙</h2>
+      <p class="pin-lock-sub">本網站為私人專屬空間，請輸入 6 位數通行密碼解鎖</p>
+
+      <div class="pin-dots" id="pinDots">
+        <span class="pin-dot"></span>
+        <span class="pin-dot"></span>
+        <span class="pin-dot"></span>
+        <span class="pin-dot"></span>
+        <span class="pin-dot"></span>
+        <span class="pin-dot"></span>
+      </div>
+
+      <div class="pin-error-msg" id="pinErrorMsg"></div>
+
+      <input
+        type="password"
+        id="pinDirectInput"
+        class="pin-input-hidden"
+        maxlength="6"
+        inputmode="numeric"
+        placeholder="••••••"
+        autocomplete="off"
+        oninput="handlePinInput(this.value)"
+        onkeydown="if(event.key==='Enter') verifyPinNow()"
+      />
+
+      <div class="pin-keypad">
+        <button type="button" class="pin-key" onclick="pressPinDigit('1')">1</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('2')">2</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('3')">3</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('4')">4</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('5')">5</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('6')">6</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('7')">7</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('8')">8</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('9')">9</button>
+        <button type="button" class="pin-key" onclick="clearPinInput()" style="font-size:0.9rem;">清除</button>
+        <button type="button" class="pin-key" onclick="pressPinDigit('0')">0</button>
+        <button type="button" class="pin-key" onclick="backspacePinDigit()" style="font-size:0.95rem;">⌫</button>
+      </div>
+
+      <label class="pin-remember-row">
+        <input type="checkbox" id="pinRememberDevice" checked />
+        <span>在此裝置記住解鎖狀態（下次免重複輸入）</span>
+      </label>
+    </div>
+  </div>
 
   <!-- 頂部閱讀進度條 -->
   <div class="reading-progress" id="readingProgress"></div>
@@ -1717,6 +1920,9 @@
         </button>
         <button class="ctrl-btn prompt-cta-btn" onclick="openPromptModal()">
           🤖 AI 更新提示詞
+        </button>
+        <button class="ctrl-btn" onclick="lockVaultSession()" title="立即重新上鎖網站">
+          🔒 上鎖
         </button>
       </div>
     </div>
@@ -2972,7 +3178,108 @@
       setTimeout(() => t.classList.remove('show'), 2800);
     }
 
-    window.addEventListener('DOMContentLoaded', initApp);
+    // =========================================================================
+    // 🔒 專屬密碼鎖控制邏輯 (密碼驗證與裝置記憶)
+    // =========================================================================
+    const VAULT_AUTH_KEY = 'leo_mindvault_pin_unlocked_v1';
+    const VAULT_PIN_CODE = '083208';
+    let currentPinBuffer = '';
+
+    function checkInitialPinLock() {
+      const isUnlocked = localStorage.getItem(VAULT_AUTH_KEY) === '1' || sessionStorage.getItem(VAULT_AUTH_KEY) === '1';
+      if (isUnlocked) {
+        unlockVaultUI(false);
+      } else {
+        document.body.classList.add('vault-locked');
+        const overlay = document.getElementById('pin-lock-overlay');
+        if (overlay) overlay.classList.remove('unlocked');
+        setTimeout(() => {
+          const inp = document.getElementById('pinDirectInput');
+          if (inp) inp.focus();
+        }, 120);
+      }
+    }
+
+    function updatePinDotsUI(isError = false) {
+      const dots = document.querySelectorAll('#pinDots .pin-dot');
+      dots.forEach((d, idx) => {
+        d.classList.toggle('filled', idx < currentPinBuffer.length);
+        d.classList.toggle('error', isError);
+      });
+      const inp = document.getElementById('pinDirectInput');
+      if (inp && inp.value !== currentPinBuffer) {
+        inp.value = currentPinBuffer;
+      }
+    }
+
+    function handlePinInput(val) {
+      currentPinBuffer = String(val).replace(/[^0-9]/g, '').slice(0, 6);
+      document.getElementById('pinErrorMsg').textContent = '';
+      updatePinDotsUI(false);
+      if (currentPinBuffer.length === 6) {
+        verifyPinNow();
+      }
+    }
+
+    function pressPinDigit(digit) {
+      if (currentPinBuffer.length < 6) {
+        handlePinInput(currentPinBuffer + digit);
+      }
+    }
+
+    function backspacePinDigit() {
+      handlePinInput(currentPinBuffer.slice(0, -1));
+    }
+
+    function clearPinInput() {
+      handlePinInput('');
+    }
+
+    function verifyPinNow() {
+      if (currentPinBuffer === VAULT_PIN_CODE) {
+        const remember = document.getElementById('pinRememberDevice')?.checked;
+        if (remember) {
+          localStorage.setItem(VAULT_AUTH_KEY, '1');
+        } else {
+          sessionStorage.setItem(VAULT_AUTH_KEY, '1');
+        }
+        unlockVaultUI(true);
+      } else {
+        document.getElementById('pinErrorMsg').textContent = '❌ 密碼錯誤，請重新輸入 6 位數密碼';
+        updatePinDotsUI(true);
+        setTimeout(() => {
+          currentPinBuffer = '';
+          updatePinDotsUI(false);
+        }, 420);
+      }
+    }
+
+    function unlockVaultUI(showWelcome) {
+      document.body.classList.remove('vault-locked');
+      const overlay = document.getElementById('pin-lock-overlay');
+      if (overlay) overlay.classList.add('unlocked');
+      currentPinBuffer = '';
+      updatePinDotsUI(false);
+      if (showWelcome) {
+        showToast('🔓 歡迎回來，Leo！私人知識庫已解鎖');
+      }
+    }
+
+    function lockVaultSession() {
+      localStorage.removeItem(VAULT_AUTH_KEY);
+      sessionStorage.removeItem(VAULT_AUTH_KEY);
+      currentPinBuffer = '';
+      updatePinDotsUI(false);
+      document.body.classList.add('vault-locked');
+      const overlay = document.getElementById('pin-lock-overlay');
+      if (overlay) overlay.classList.remove('unlocked');
+      showToast('🔒 已重新上鎖私人知識庫');
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      checkInitialPinLock();
+      initApp();
+    });
   </script>
 </body>
 </html>
