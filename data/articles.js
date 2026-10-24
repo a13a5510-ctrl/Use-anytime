@@ -14,6 +14,181 @@ window.KNOWLEDGE_CATEGORIES = [
 
 window.DEFAULT_ARTICLES = [
   {
+    id: "oled-4k-bluray-bitrate-hdr-guide",
+    flag: "🎬",
+    country: "頂級影音發燒科普",
+    category: "tech",
+    categoryLabel: "💻 數位工具與科技",
+    type: "article",
+    sentiment: "positive",
+    sentimentLabel: "🌟 硬體實力解放",
+    importance: "發燒友必讀",
+    title: "【影音發燒全攻略】為什麼 1080p 藍光能吊打串流假 4K？徹底解放 OLED 螢幕 100% 實力的「碼率與杜比視界」指南",
+    originalTitle: "Resolution vs. Bitrate & HDR: The Ultimate Guide to Unleashing 100% of Your OLED Display with 4K UHD Blu-ray Remux",
+    source: "家用顯示技術 × 藍光原盤編碼 × OLED 調校實戰科普",
+    subtitle: "很多人以為「4K 就一定比 1080p 清楚」，但在專業影音領域裡，「碼率（Bitrate）」與「動態範圍（Dolby Vision / HDR）」才是決定畫質生死的真正關鍵！一次看懂 Lv.1～Lv.6 平台畫質天花板與 OLED 封神級播放配方。",
+    createdAt: "2026-10-24",
+    readTime: "6 分鐘閱讀",
+    difficulty: "發燒友實戰必備",
+    coverImage: "assets/images/oled_hdr_bitrate_guide.jpg",
+    tags: ["OLED螢幕", "4K藍光Remux", "碼率Bitrate", "DolbyVision杜比視界", "HDR10", "影音播放器調校"],
+    summary: "在專業影音領域，<mark>「碼率（Bitrate 資料流量）」與「動態範圍（HDR / Dolby Vision）」往往比單純的「解析度（4K/1080p）」更決定畫質生死</mark>。一般串流 4K 為省頻寬壓縮至 15~25 Mbps，暗部易有色塊；而<mark>一張 1080p 藍光原盤（40 Mbps）或 4K UHD 藍光 Remux（80~128 Mbps）</mark>擁有極致純淨度。搭配 OLED「像素級自發光純黑」與「10-bit 杜比視界」，才能完全釋放頂規螢幕 100% 的恐怖實力！",
+    keyTakeaway: "看串流求方便首選 Apple TV+（iTunes 電影 25~40 Mbps）與 Netflix 杜比視界；追求極致視覺震撼，必找「4K UHD BluRay Remux（含 Dolby Vision / 10-bit HEVC）」搭配 PotPlayer+madVR / MPV 或 Apple TV 4K (Infuse) 播放！",
+    keyTakeaways: [
+      "【破除解析度迷思】「藍光（Blu-ray）」指的不是解析度，而是超高資料流量（碼率）。<mark>串流 4K 僅 15~25 Mbps，暗部與煙霧易出現馬賽克色塊；1080p 藍光原盤（25~40 Mbps）細節與純淨度往往吊打網路高度壓縮的假 4K</mark>！",
+      "【六大畫質天花板排名】Lv.1 動畫瘋/第四台（3~6 Mbps）➔ Lv.2 YouTube 4K（15~30 Mbps）➔ Lv.3 Netflix/Disney+（15~25 Mbps）➔ <mark>Lv.4 Apple TV+ iTunes（25~40 Mbps，大眾串流天花板）</mark> ➔ Lv.5 Sony Bravia Core（80 Mbps）➔ <mark>Lv.6 神級 4K UHD 藍光原盤 BDMV/Remux（80~128 Mbps，家用物理極限）</mark>。",
+      "【OLED 封神黃金配方】OLED 具備「像素級自發光（極致純黑）＋無限對比度＋0.1ms 反應」，必須餵給它 <mark>① Dolby Vision（杜比視界）/ HDR10+（10-bit 超過 10 億色）＋ ② 4K UHD BluRay REMUX 無損封裝檔（或動畫 [VCB-Studio] 10-bit HEVC）</mark>，才能消除色階斷層、呈現煙火炸裂的立體光影。",
+      "【播放軟硬體避坑】千萬別用 Windows 預設播放器！<mark>電腦端首選 PotPlayer / MPC-HC + madVR 渲染器（或 MPV）並開啟系統 HDR；電視端首選 Apple TV 4K（配 Infuse）或 Nvidia Shield TV Pro / 芝杜 Zidoo</mark> 點亮杜比視界標誌。"
+    ],
+    content: `
+      <div class="article-section" id="sec-res-vs-bitrate">
+        <h2>一、 基礎觀念：「解析度」vs.「媒介（藍光）」的根本差異</h2>
+        <p>很多人以為「標示 4K 就一定比 1080p 清楚」，但在專業影音發燒友眼中，<mark>「碼率（Bitrate）」與「動態範圍（HDR）」往往比單純的「解析度」更決定畫質的生死</mark>。既然擁有頂規的 <strong>OLED 螢幕／電視</strong>，先把這兩個不同維度的概念拆開來看，才能讓硬體發揮 100% 的恐怖實力：</p>
+
+        <figure class="article-figure">
+          <img src="assets/images/oled_hdr_bitrate_guide.jpg" alt="OLED 封神畫質完全指南：碼率 vs 解析度 vs 杜比視界圖解" loading="lazy" />
+          <figcaption>▲ 決定畫質生死的三大支柱：資料流量「碼率（Bitrate）」決定暗部純淨度、光影靈魂「Dolby Vision / 10-bit HDR」解放 OLED 極致對比，以及 Lv.1 至 Lv.6 各大平台畫質天花板對照。</figcaption>
+        </figure>
+
+        <div class="info-cards-grid two-cols">
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">維度 1 · 像素顆粒數量</div>
+            <h4>📐 解析度維度（畫面由多少顆像素點組成）</h4>
+            <ul>
+              <li><strong>HD (720p)</strong>：<code>1280 × 720</code>（約 92 萬像素）— 早期第四台或舊網路影片標準。</li>
+              <li><strong>Full HD / FHD (1080p)</strong>：<code>1920 × 1080</code>（約 207 萬像素）— 目前主流基本盤。</li>
+              <li><strong>4K / UHD (2160p)</strong>：<code>3840 × 2160</code>（約 829 萬像素）— 畫面精細度是 1080p 的 <strong>4 倍</strong>。</li>
+              <li><strong>8K (4320p)</strong>：<code>7680 × 4320</code>（約 3,317 萬像素）— 精細度是 4K 的 <strong>4 倍</strong>、1080p 的 <strong>16 倍</strong>。</li>
+            </ul>
+          </div>
+
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-emerald">維度 2 · 資料水管粗細</div>
+            <h4>💿 什麼是「藍光 (Blu-ray)」？為何畫質無敵？</h4>
+            <p>「藍光」指的不是解析度，而是<mark>實體光碟載體與超高資料流量（碼率 Bitrate）</mark>。它分為兩種等級：</p>
+            <ul>
+              <li><strong>一般藍光 (FHD Blu-ray / BD)</strong>：解析度是 <strong>1080p</strong>，但影片流量高達 <mark>25 ~ 40 Mbps</mark>。</li>
+              <li><strong>4K UHD 藍光 (4K Ultra HD Blu-ray)</strong>：解析度是 <strong>4K</strong>，且影片流量高達 <mark>60 ~ 128 Mbps</mark>！</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout callout-amber">
+          <div class="callout-title">💡 震撼真相：1080p 藍光原盤 vs. 網路上的「假 4K」</div>
+          <p>YouTube 或一般串流平台的 4K 影片，為了節省網路頻寬，會把流量大幅壓縮到只有 <strong>15 ~ 25 Mbps</strong>。</p>
+          <p>這會導致在<strong>暗部、煙霧、星空、爆炸或快速移動畫面</strong>時出現大量「色塊與馬賽克（壓縮色帶 Banding）」。因此，<mark>一張 1080p 藍光原盤（40 Mbps）在電視上看，細節與純淨度往往吊打網路上高度壓縮的串流 4K！</mark></p>
+        </div>
+      </div>
+
+      <div class="article-section" id="sec-platform-ceiling">
+        <h2>二、 各大影音平台「畫質天花板」在哪？（由低至高排名）</h2>
+        <p>如果您在網路上看影片或收藏檔案，各大來源的最高畫質極限（天花板）由低至高排名如下：</p>
+
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>等級排名</th>
+                <th>平台 / 來源</th>
+                <th>最高解析度 &amp; 規格</th>
+                <th class="col-highlight">平均碼率 (Bitrate)</th>
+                <th>畫質評價與真實體感</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tag-pill pill-gray">Lv.1</span></td>
+                <td><strong>巴哈姆特動畫瘋 / 一般第四台</strong></td>
+                <td>1080p SDR</td>
+                <td class="col-highlight"><code>3 ~ 6 Mbps</code></td>
+                <td>方便追番，但在大螢幕暗景會有明顯色塊與塗抹感。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">Lv.2</span></td>
+                <td><strong>YouTube</strong></td>
+                <td>4K / 8K HDR (VP9 / AV1)</td>
+                <td class="col-highlight"><code>15 ~ 30 Mbps</code></td>
+                <td>亮部風景展示片極美，但暗部與複雜動態壓縮感仍重。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">Lv.3</span></td>
+                <td><strong>Netflix / Disney+</strong></td>
+                <td>4K Dolby Vision + Atmos</td>
+                <td class="col-highlight"><code>15 ~ 25 Mbps</code></td>
+                <td>主流串流霸主，有杜比視界加持，色彩討喜但暗場仍有壓縮。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-green">Lv.4</span></td>
+                <td><strong>Apple TV+ (iTunes 電影)</strong></td>
+                <td>4K Dolby Vision + Atmos</td>
+                <td class="col-highlight"><mark>25 ~ 40 Mbps</mark></td>
+                <td><strong>大眾串流平台的天花板</strong>，碼率是 Netflix 的近兩倍，畫質明顯更紮實！</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-green">Lv.5</span></td>
+                <td><strong>Sony Bravia Core (Pure Stream)</strong></td>
+                <td>4K HDR IMAX Enhanced</td>
+                <td class="col-highlight"><strong>最高 80 Mbps</strong></td>
+                <td><strong>線上串流界的絕對王者</strong>（限 Sony 顯示器），畫質逼近實體光碟。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-darkred">Lv.6 神級</span></td>
+                <td><strong>4K UHD 藍光原盤 (BDMV / Remux)</strong></td>
+                <td>4K 10-bit / 12-bit Dolby Vision + 無損次世代音軌</td>
+                <td class="col-highlight"><mark>80 ~ 128 Mbps 🏆</mark></td>
+                <td><strong>家用消費級的物理極限天花板</strong>，毫無壓縮損耗，每一幀都是母帶級享受。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-muted">*(註：8K 目前僅在 YouTube 上有少數風景展示片，電影與動畫工業幾乎沒有原生 8K 母帶，因此 <strong>4K UHD 藍光原盤</strong> 才是真正的畫質終點。)*</p>
+      </div>
+
+      <div class="article-section" id="sec-oled-golden-recipe">
+        <h2>三、 擁有 OLED 螢幕，要搭配哪種等級才能獲得「封神級體驗」？</h2>
+        <p>OLED 的三大物理神技是：<mark>「像素級自發光（極致純黑）」、「無限對比度」、「0.1ms 瞬時反應速度」</mark>。如果您拿一般 SDR 壓縮影片餵給 OLED，就像買了法拉利卻在巷子裡開時速 20 公里。</p>
+        <p>要讓您的 OLED 發揮出讓人起雞皮疙瘩的視覺震撼，請務必鎖定以下 <strong>三大黃金配方</strong>：</p>
+
+        <div class="info-cards-grid">
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-emerald">黃金配方 1 · 必備核心靈魂</div>
+            <h4>🌟 鎖定 <code>Dolby Vision (杜比視界)</code> 或 <code>HDR10+</code></h4>
+            <p><strong>這比 4K 更重要！</strong>OLED 最強的就是「黑的地方完全不發光，亮的地方（如煙火、陽光、霓虹燈）極致刺眼奪目」。</p>
+            <p>當影片支援 <strong>Dolby Vision</strong> 或 <strong>HDR10</strong> 時，畫面是以 <mark>10-bit 甚至 12-bit 色深（超過 10 億種顏色，一般 SDR 影片只有 1,677 萬色）</mark>輸出。在 OLED 上看煙火在純黑夜空中炸開，那種光影立體感會像真的煙火在眼前綻放一樣！</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-badge badge-amber">黃金配方 2 · 終極檔案選擇</div>
+            <h4>📦 認明 <code>4K UHD Blu-ray Remux</code> 與 <code>10-bit 動畫</code></h4>
+            <p>追求極致收藏時，請認明檔名標籤：<code>2160p UHD BluRay REMUX HEVC 10bit HDR / DV</code></p>
+            <ul>
+              <li><strong>什麼是 Remux？</strong>就是把一張 66GB ~ 100GB 正版 4K 藍光光碟裡的「原始未壓縮影音軌道」原封不動抽出來封裝成 <code>.mkv</code>，<mark>畫質與實體光碟 100% 完全相同，零二次壓縮損耗</mark>！</li>
+              <li><strong>日本動畫怎麼挑？</strong>新海誠《你的名字》、《鈴芽之旅》等可直接找 <strong>4K UHD HDR 藍光版</strong>；若官方最高只出到 1080p BD（如《煙花》），請找 <code>BDMV 原盤</code> 或 <mark><code>[VCB-Studio] 10-bit HEVC FLAC</code></mark> 壓製版——因為 10-bit 編碼能徹底消除動畫天空與水面漸層的「色階斷層（Banding）」，在 OLED 上如絲綢般順滑！</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">黃金配方 3 · 播放軟硬體調校</div>
+            <h4>🖥️ 播放器也要對（避開 Windows 內建播放器的坑）</h4>
+            <p>在電腦或電視上用 OLED 看 HDR / 4K 藍光檔時，千萬別用系統預設播放器（顏色會發灰或過曝）：</p>
+            <ul>
+              <li><strong>💻 電腦端最強組合</strong>：<mark><code>PotPlayer</code> 或 <code>MPC-HC</code> 搭配 <code>madVR</code> 渲染器（或使用 <code>MPV</code> 播放器）</mark>，並開啟 Windows HDR 模式，還能將 1080p 動畫透過 AI 演算法即時升頻（Upscale）到極致銳利的 4K。</li>
+              <li><strong>📺 電視端最強組合</strong>：使用 <mark><strong>Apple TV 4K</strong>（搭配 <code>Infuse</code> 軟體）或 <strong>Nvidia Shield TV Pro / 芝杜 Zidoo 播放機</strong></mark>直通電視，直接點亮電視右上角的 <code>Dolby Vision</code> 標誌！</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">📌 懶人包總結：兩大情境直接照著選</div>
+          <ol class="styled-list">
+            <li><strong>看串流求方便</strong>：首選 <mark><strong>Apple TV (iTunes)</strong> 租買 4K 電影（碼率高達 25~40 Mbps）</mark>，次選 <strong>Netflix 最高級方案</strong>（認明有 <code>Dolby Vision</code> 或 <code>HDR</code> 標籤的作品）。</li>
+            <li><strong>收藏與極致爽度</strong>：鎖定 <mark><strong><code>4K UHD BluRay Remux (含 Dolby Vision / HDR)</code></strong></mark> 檔案（一部片約 50GB~80GB），搭配您的 OLED 螢幕，這就是目前人類家用影音體驗的最高峰！</li>
+          </ol>
+        </div>
+      </div>
+    `
+  },
+  {
     id: "linear-vs-logarithmic-thinking-guide",
     flag: "📈",
     country: "認知升級專刊",
