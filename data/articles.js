@@ -14,6 +14,177 @@ window.KNOWLEDGE_CATEGORIES = [
 
 window.DEFAULT_ARTICLES = [
   {
+    id: "anthropic-felix-ai-ambition-altitude-depth-breadth",
+    flag: "🚀",
+    country: "AI 頂尖實戰心法",
+    category: "tech",
+    categoryLabel: "💻 數位工具與科技",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 認知與效率躍遷",
+    importance: "AI 時代必讀",
+    title: "【影音深度解析】用 AI 別只叫它修當機！Anthropic 工程師揭秘「高度 × 深度 × 廣度」三大高階 AI 野心法則",
+    originalTitle: "How to Be More Ambitious with AI: Altitude, Depth & Breadth (Felix Rieseberg / Fox Hsiao)",
+    source: "Anthropic 工程開發主管 Felix Rieseberg 實戰教學 × Fox Hsiao 影片解析",
+    subtitle: "去年初他還在叫 AI 一個一個修當機，後來他只交代一句：「讓我們的 App 不要再當機。」打破只把 AI 當搜尋引擎或改信工具的侷限，掌握讓 AI 實力暴增 10 倍的三大維度！",
+    createdAt: "2026-10-26",
+    readTime: "5 分鐘閱讀 + 2分42秒影片",
+    difficulty: "高維度實戰必備",
+    coverImage: "assets/images/ai_ambition_cover.jpg",
+    videoUrl: "assets/videos/ai_ambition_felix_rieseberg.mp4",
+    tags: ["AI高階用法", "Anthropic", "Claude", "FelixRieseberg", "提示詞工程", "思維模型"],
+    summary: "Anthropic 工程師 Felix Rieseberg 指出，多數人還停留在用 AI 追求「速度（把原本的事做快一點）」，但真正拉開差距的是另外三種野心：<mark>① 高度（Altitude）：別只交代眼前小任務，直接交代最終結果並給齊環境與工具</mark>；<mark>② 深度（Depth）：要求採用頂尖專家真正的方法論、設定不合理的極限目標，並用外部工具驗證而非讓 AI 自己打分數</mark>；<mark>③ 廣度（Breadth）：看穿事物本質，並像「搶劫電影組隊」借用放空投資人與鑑識會計師等跨界專家的方法</mark>。",
+    keyTakeaway: "人常常被「自己覺得做不到的事」綁住（如同 1939 年誤把統計學世紀難題當成課後作業解開的 Dantzig）。下次給 AI 任務前，先從「高度、深度、廣度」重新定義你的提問！",
+    keyTakeaways: [
+      "【破除低階用法】別只拿 AI 問「法國首都在哪」或「把信改得沒那麼生氣」。用 AI 的野心分四種：第一種<mark>「速度（Speed）」已非常成熟，真正讓你飛起來的是「高度、深度、廣度」</mark>。",
+      "【↑ 高度（Altitude）：先講最終結果＋給齊條件】從「把數字填進簡報範本」➔「分析這季變了什麼、該怎麼辦」➔ 最高層級<mark>「設計一套比季度簡報更早發現問題的預警機制，拿歷史資料驗證並並行一季」</mark>。目標拉高，也要給足做得到的條件（如當機報告、Git 紀錄、三種 OS 測試環境）。",
+      "【↓ 深度（Depth）：專家真方法＋不合理目標＋外部驗證】光叫 AI「扮演專家」它只會換專業術語；要直接<mark>要求它動用資料庫與統計模型、把目標訂得極端不合理（網頁從 10 秒降到 0.2 秒逼出極限方案），並交給外部工具實測驗證</mark>，絕不讓 AI 自己幫自己打分數。",
+      "【↔ 廣度（Breadth）：本質提問＋搶劫電影跨界組隊】先別問「這是什麼」，改問<mark>「這件事到底在做什麼？」（例：季報本質是讓大忙人在 30 分鐘內相信一套因果並做決定）</mark>。再像《瞞天過海》組隊：找記者與編輯做呈現，找<mark>「放空投資人」與「鑑識會計師」</mark>照他們查核公司弱點與財務疑點的方法來挑毛病！"
+    ],
+    content: `
+      <div class="article-section" id="sec-intro-ambition">
+        <h2>一、 前言：你是在用 AI「拍翅膀掙扎」，還是已經「飛起來」了？</h2>
+        <p>這支由 <strong>Fox Hsiao</strong> 解析的短片，源自 AI 頂尖公司 <strong>Anthropic</strong>（Claude 背後開發商）工程開發主管 <strong>Felix Rieseberg</strong> 撰寫的一份重磅實戰教學——<strong>《如何在使用 AI 時更有野心》</strong>。</p>
+        <p>去年初，Felix 還在叫 AI「一個一個修程式當機」；到了後來，他只對 AI 交代一句話：<mark>「讓我們的 App 不要再當機。」</mark></p>
+
+        <div class="callout callout-amber">
+          <div class="callout-title">🦅 為什麼多數人還沒有發揮 AI 真正的威力？</div>
+          <p>Felix 形容，現在用 AI 的人已經出現巨大分水嶺：<strong>有些人已經飛起來了，但還有許多人正在跟「新翅膀」奮鬥</strong>——這些人只拿擁有博士級智力的 AI 來問「法國首都在哪裡？」，或者請它「把一封信改得沒那麼生氣」。</p>
+          <p>他將使用 AI 的野心分為四種維度：第一種是<strong>「速度（Speed，把原本的事做快一點）」</strong>，這種用法大家已經很熟練，他直接跳過不談；真正決定高下的是後面三種：<mark>「↑ 高度（Altitude）」、「↓ 深度（Depth）」、「↔ 廣度（Breadth）」</mark>。</p>
+        </div>
+      </div>
+
+      <div class="article-section" id="sec-altitude">
+        <h2>二、 維度一：【↑ 高度 Altitude】先講清楚最後要什麼結果，並給它做得到的條件</h2>
+        <p><strong>核心定義：</strong><mark>別只交代眼前的零碎工作（Task），先講清楚你最後要什麼「最終結果（Outcome）」！</mark></p>
+        <p>以公司每一季檢討營運的「季度簡報（Quarterly Business Review）」為例，不同「高度」的 AI 用法差距有多大？</p>
+
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>野心層級</th>
+                <th>你對 AI 下達的指令（以每季營運檢討簡報為例）</th>
+                <th class="col-highlight">AI 產出的真實價值</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tag-pill pill-gray">Lv.1 低高度（代工）</span></td>
+                <td>「幫我把這一季的新數字填進簡報範本裡。」</td>
+                <td class="col-highlight">僅省下複製貼上的打字時間，毫無洞察。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">Lv.2 中高度（幕僚）</span></td>
+                <td>把手上所有營運資料都餵給它，問：<br><strong>「這一季變了什麼？為什麼？我們該怎麼辦？」</strong></td>
+                <td class="col-highlight">獲得初步的異動歸因與行動建議。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-green">Lv.3 最高度（系統建構）</span></td>
+                <td><mark>「請幫我設計一套『比季度簡報更早發現問題』的預警辦法，拿公司過去的歷史資料驗證，再跟現在的做法並行一季測試！」</mark></td>
+                <td class="col-highlight"><strong>直接升級公司營運體質！</strong>從「事後檢討」躍升為「事前自動預警系統」。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">🛠️ 關鍵配套：「目標拉高，也要給它做得到的條件！」</div>
+          <p>喊出高目標不是當甩手掌櫃，你必須為 AI 搭建<strong>完整的資訊與執行閉環</strong>。當 Felix 要求 AI「讓我們的 App 不再當機」時，他同時給了 AI 三項關鍵條件：</p>
+          <ol class="styled-list">
+            <li><strong>完整情報來源</strong>：讓 AI 能直接拿到所有的「當機報告（Crash Reports）」。</li>
+            <li><strong>上下文追蹤能力</strong>：讓 AI 知道每一個版本對應哪一次程式碼修改（Git Commits）。</li>
+            <li><strong>實測重現環境</strong>：直接給它<strong>三種不同作業系統（macOS / Windows / Linux）的電腦環境</strong>，讓 AI 能自己重現問題、自己修、自己確認修好了沒！</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="article-section" id="sec-depth">
+        <h2>三、 維度二：【↓ 深度 Depth】照頂尖專家真正的做法去做，且別讓它自己打分數</h2>
+        <p><strong>核心定義：</strong>突破 AI 喜歡「敷衍給出平均值答案」的惰性，逼出專業級極限深度。Felix 給出三個實戰鐵律：</p>
+
+        <div class="info-cards-grid">
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">鐵律 1 · 要求專家工具與方法</div>
+            <h4>🔬 別只叫它「扮演專家」，要指定「專家的方法」</h4>
+            <p>光在提示詞寫「請扮演頂尖資料分析師」，AI 常常<mark>只是換了專業用詞，底層方法根本沒變</mark>！</p>
+            <p>如果它只想把資料整理成簡單表格，你要直接下令：<strong>「請直接建立資料庫（SQL/DuckDB）並跑統計模型來分析！」</strong>逼它動用真正的硬核工具。</p>
+          </div>
+
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-amber">鐵律 2 · 設定不合理的極限目標</div>
+            <h4>⚡ 把目標訂得「不合理一點」逼出結構性突破</h4>
+            <p>網頁載入速度原本是 <strong>10 秒</strong>，你心裡原本想降到 <strong>5 秒</strong>就好；但下指令時，<mark>直接跟 AI 說：「我要降到 0.2 秒！就算做不到，也請往這個目標繼續找辦法！」</mark></p>
+            <p>當目標是 5 秒時，AI 只會做表面微調（壓縮圖片）；當目標是 0.2 秒時，它才會徹底重構架構與快取機制！</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-badge badge-emerald">鐵律 3 · 外部客觀驗證閉環</div>
+            <h4>📏 絕不讓 AI 自己幫自己打分數</h4>
+            <p>別問 AI「你覺得這樣改好不好？」（它一定回答很好）。<mark>必須給它一個「它能自己執行、馬上看到客觀結果的外部工具」來驗收</mark>（例如：自動跑測速腳本、單元測試、編譯器或回測數據）。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-section" id="sec-breadth">
+        <h2>四、 維度三：【↔ 廣度 Breadth】看穿本質，並像「搶劫電影」一樣跨領域組隊</h2>
+        <p><strong>核心定義：</strong>借用其他領域頂尖高手的眼光，打破單一專業的盲點。分為兩個步驟：</p>
+
+        <h3>Step 1：先別問「這是什麼東西」，改問「這件事到底在做什麼？」</h3>
+        <p>Felix 借用一本創新書籍的方法——跳脫表面形式，直擊任務的底層本質（Jobs to be Done）：</p>
+        <ul>
+          <li>❌ <strong>表面認知</strong>：「每季的營運檢討就是做一份 30 頁的 PPT 報告。」</li>
+          <li>✅ <strong>本質定義</strong>：「每季檢討真正在做的事，是<mark>讓一群極度忙碌的人，在 30 分鐘內相信一套因果說法，並在資訊不完整時做出決定！</mark>」</li>
+        </ul>
+
+        <h3>Step 2：像拍《瞞天過海》搶劫電影那樣，召集跨界專家組隊！</h3>
+        <p>一旦看懂「30 分鐘內建立因果說服力並做決策」的本質後，你就不再只是叫 AI 當「整理數據的秘書」，而是像搶劫電影（Heist Movie）一樣組建夢幻特攻隊：</p>
+
+        <div class="info-cards-grid two-cols">
+          <div class="info-card border-emerald">
+            <div class="info-card-badge badge-emerald">🎨 負責「把成果做好、講出好故事」</div>
+            <h4>召集：分析師 ＋ 調查記者 ＋ 總編輯</h4>
+            <p>請 AI 結合<strong>數據分析師</strong>的邏輯、<strong>調查記者</strong>挖掘真相的敘事節奏，以及<strong>資深編輯</strong>砍掉廢話、凸顯核心標題的功力，讓忙人 30 分鐘內秒懂因果。</p>
+          </div>
+
+          <div class="info-card border-amber">
+            <div class="info-card-badge badge-amber">🕵️ 負責「無情挑毛病、抓出盲點與水分」</div>
+            <h4>召集：放空投資人 ＋ 鑑識會計師</h4>
+            <p>要幫報告挑毛病，就找全世界最擅長找公司弱點的<strong>「放空機構投資人（Short Sellers）」</strong>與專門追查財務疑點的<strong>「鑑識會計師（Forensic Accountants）」</strong>！</p>
+            <p class="text-sm text-muted">💡 <strong>關鍵秘訣</strong>：<mark>別叫 AI「語氣寫得像放空投資人」，而是要它「照放空投資人與鑑識會計師研究一家公司破綻的真實方法論去查核你的報告」！</mark></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-section" id="sec-dantzig-story">
+        <h2>五、 結語：1939 年柏克萊「統計學未解難題」的啟示</h2>
+        <p>Felix 在文章最後分享了一段著名的科學史往事：</p>
+        <p>1939 年，加州大學柏克萊分校（UC Berkeley）的研究生 <strong>喬治・丹齊格（George Dantzig）</strong> 上統計課時遲到了。他看到黑板上寫著兩道題目，以為是教授留的課後作業，就抄回家做。他覺得「這次作業比平常難一點」，但幾天後還是把答案交給了教授。</p>
+        <p>大約六週後，教授激動地衝到他家敲門——原來黑板上那兩道題，<mark>根本不是作業，而是當時統計學界公認「尚未有人能解開的兩道著名世紀難題」</mark>！因為沒有人告訴 Dantzig「這是不可能解開的」，他才毫無心理設限地把它解了出來。</p>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">💬 給自己的行動反思（Action Prompt）</div>
+          <p><strong>「人常常被自己覺得做不到的事綁住。」</strong>在 AI 能力每幾個月就翻倍的今天，限制產出的往往不是 AI 的智商，而是我們下指令時的想像力與野心。</p>
+          <p>👇 <strong>下次打開 AI 前，先問自己這三個問題：</strong></p>
+          <div class="checklist-box">
+            <label class="checklist-item">
+              <input type="checkbox" checked />
+              <span><strong>【↑ 高度檢查】</strong>我現在交代的只是一個零碎步驟，還是我真正想要的「最終成果與自動化系統」？我能多給它什麼資料與執行環境？</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" checked />
+              <span><strong>【↓ 深度檢查】</strong>我有沒有要求它使用該領域頂尖專家的「硬核工具與方法」？如果把目標訂得極端不合理（10 倍強），它會端出什麼方案？能用什麼外部工具驗證？</span>
+            </label>
+            <label class="checklist-item">
+              <input type="checkbox" checked />
+              <span><strong>【↔ 廣度檢查】</strong>這件事的底層本質到底是什麼？如果像搶劫電影組隊，我可以借用哪個跨領域專家（如放空投資人、鑑識會計師、記者）的方法論來交叉檢驗？</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    `
+  },
+  {
     id: "oled-4k-bluray-bitrate-hdr-guide",
     flag: "🎬",
     country: "頂級影音發燒科普",
