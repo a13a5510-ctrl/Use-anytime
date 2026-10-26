@@ -1939,10 +1939,13 @@
     <!-- 主頻道切換器 -->
     <div class="channel-switcher">
       <button class="channel-btn active" id="ch-btn-reader" onclick="switchChannel('reader')">
-        📖 專題深度閱讀（台灣電表全貌圖解）
+        📖 專題深度閱讀
+      </button>
+      <button class="channel-btn" id="ch-btn-cognition" onclick="switchChannel('cognition')">
+        🧭 自我認知提升 (<span id="cognition-total-badge">11</span>)
       </button>
       <button class="channel-btn" id="ch-btn-vault" onclick="switchChannel('vault')">
-        📚 知識進化卡片庫 (<span id="vault-total-badge">4</span>)
+        📚 知識進化卡片庫 (<span id="vault-total-badge">18</span>)
       </button>
       <button class="channel-btn" id="ch-btn-news" onclick="switchChannel('news')">
         🌍 世界大事日報 (<span id="news-total-badge">10</span>)
@@ -2034,6 +2037,10 @@
       <span style="font-size:1.15rem;">📖</span>
       <span>專題精讀</span>
     </button>
+    <button class="mob-nav-btn" id="mob-btn-cognition" onclick="switchChannel('cognition')">
+      <span style="font-size:1.15rem;">🧭</span>
+      <span>自我認知</span>
+    </button>
     <button class="mob-nav-btn" id="mob-btn-vault" onclick="switchChannel('vault')">
       <span style="font-size:1.15rem;">📚</span>
       <span>知識卡庫</span>
@@ -2041,10 +2048,6 @@
     <button class="mob-nav-btn" id="mob-btn-news" onclick="switchChannel('news')">
       <span style="font-size:1.15rem;">🌍</span>
       <span>世界日報</span>
-    </button>
-    <button class="mob-nav-btn" onclick="openAddModal()">
-      <span style="font-size:1.15rem;">➕</span>
-      <span>新增內容</span>
     </button>
     <button class="mob-nav-btn" onclick="toggleTheme()">
       <span style="font-size:1.15rem;" id="mobThemeIcon">🌙</span>
@@ -2105,6 +2108,7 @@
         <div class="form-group">
           <label>分類領域</label>
           <select id="new-category" class="form-control">
+            <option value="self-cognition">🧭 自我認知提升</option>
             <option value="life-finance">⚡ 生活科學與理財</option>
             <option value="business">🏪 創業與店務經營</option>
             <option value="growth">🧠 思維模型與成長</option>
@@ -2217,6 +2221,10 @@
 
       // 5. 更新數量徽章並渲染畫面
       document.getElementById('vault-total-badge').textContent = allArticles.length;
+      const cogBadge = document.getElementById('cognition-total-badge');
+      if (cogBadge) {
+        cogBadge.textContent = allArticles.filter(a => a.category === 'self-cognition').length;
+      }
       if (newsArchive[0]) {
         document.getElementById('news-total-badge').textContent = newsArchive[0].stories.length;
       }
@@ -2283,17 +2291,17 @@
     }
 
     // =========================================================================
-    // 三大頻道切換 (專題深度閱讀 / 知識進化卡片庫 / 世界大事日報)
+    // 四大頻道切換 (專題深度閱讀 / 自我認知提升 / 知識進化卡片庫 / 世界大事日報)
     // =========================================================================
     function switchChannel(ch) {
       currentChannel = ch;
-      currentGridCategory = 'all';
+      currentGridCategory = ch === 'cognition' ? 'self-cognition' : 'all';
       currentGridSentiment = 'all';
       gridSearchQuery = '';
       const searchEl = document.getElementById('gridSearchInput');
       if (searchEl) searchEl.value = '';
 
-      ['reader', 'vault', 'news'].forEach(id => {
+      ['reader', 'cognition', 'vault', 'news'].forEach(id => {
         const b1 = document.getElementById(`ch-btn-${id}`);
         const b2 = document.getElementById(`mob-btn-${id}`);
         if (b1) b1.classList.toggle('active', id === ch);
@@ -2311,6 +2319,8 @@
     function renderCurrentChannel() {
       if (currentChannel === 'reader') {
         renderDeepReaderView();
+      } else if (currentChannel === 'cognition') {
+        renderCognitionGridView();
       } else if (currentChannel === 'vault') {
         renderVaultGridView();
       } else {
@@ -2479,6 +2489,59 @@
     }
 
     // =========================================================================
+    // 視圖 1.5：自我認知提升專屬分頁 (收錄 11 部深度認知覺察與商業管理短片解析)
+    // =========================================================================
+    function renderCognitionGridView() {
+      const cogArts = allArticles.filter(a => a.category === 'self-cognition');
+      document.getElementById('editorBadgeTitle').innerHTML = `🧭 自我認知提升專區 · 頂尖心智與底層邏輯`;
+      document.getElementById('editionLabel').textContent = `專屬分頁館藏：共 ${cogArts.length} 篇深度影音解析`;
+      document.getElementById('editorNoteText').innerHTML = `這裡專門收錄關於<strong>「長期主義、高敏感天賦、杜拉克高管思維、反演算法粉色圍欄、人際能量篩選、成功日記、AI 寓言學習法、無用之用商業真相與 10 大學習底層邏輯」</strong>的精華解析。點擊任一卡片即可觀看原片並閱讀結構化筆記！`;
+
+      document.getElementById('mastheadMeta').innerHTML = `
+        <span class="meta-stat">🧭 自我認知提升：<strong>${cogArts.length} 篇專題</strong></span>
+        <span class="meta-stat" style="color: var(--pos-text);">🎬 內建離線原片：<strong>100% 支援播放</strong></span>
+        <span class="meta-stat">✨ 暖金螢光筆重點：<strong>自動抽取速覽</strong></span>
+      `;
+
+      document.getElementById('gridCategoryTabs').innerHTML = `
+        <button class="tab-btn active" onclick="setGridCategory('self-cognition')">
+          🧭 自我認知提升全集 <span class="tab-count">${cogArts.length}</span>
+        </button>
+        <button class="tab-btn" onclick="switchChannel('vault')">
+          📚 查看全部知識庫館藏 <span class="tab-count">${allArticles.length}</span>
+        </button>
+      `;
+
+      const subPills = [
+        { id: 'all', label: '全部主題 (11)' },
+        { id: 'positive', label: '🌟 心智成長與商業洞察' },
+        { id: 'warning', label: '⚠️ 演算法與人際避坑鐵律' }
+      ];
+      document.getElementById('gridSentimentPills').innerHTML = `
+        <span style="font-size: 0.82rem; color: var(--text-muted); margin-right: 4px;">主題篩選：</span>
+        ${subPills.map(p => `
+          <button class="pill-btn ${currentGridSentiment === p.id ? 'active' : ''}" onclick="setGridSentiment('${p.id}')">${p.label}</button>
+        `).join('')}
+      `;
+
+      const hlItems = [];
+      cogArts.forEach(art => {
+        const matches = [...(art.summary || '').matchAll(/<mark>(.*?)<\/mark>/g)];
+        if (matches.length > 0) {
+          hlItems.push(`
+            <li>
+              <span style="white-space:nowrap; font-weight:700;">${art.flag || '🧭'} ${art.country || '認知提升'}</span>
+              <span>${matches.map(m => `<mark>${m[1]}</mark>`).join('；')} <small style="color:var(--text-muted);">—《${art.title}》</small></span>
+            </li>
+          `);
+        }
+      });
+      document.getElementById('highlightsList').innerHTML = hlItems.join('');
+
+      renderGridCards();
+    }
+
+    // =========================================================================
     // 視圖 2：知識進化卡片庫（報紙卡片牆模式）
     // =========================================================================
     function renderVaultGridView() {
@@ -2629,10 +2692,14 @@
       const container = document.getElementById('cardsGridContainer');
       const q = gridSearchQuery.trim().toLowerCase();
 
-      if (currentChannel === 'vault') {
+      if (currentChannel === 'vault' || currentChannel === 'cognition') {
         const filtered = allArticles.filter(art => {
-          const matchCat = currentGridCategory === 'all' || art.category === currentGridCategory;
-          const matchType = currentGridSentiment === 'all' || art.type === currentGridSentiment;
+          const matchCat = currentChannel === 'cognition'
+            ? art.category === 'self-cognition'
+            : (currentGridCategory === 'all' || art.category === currentGridCategory);
+          const matchType = currentChannel === 'cognition'
+            ? (currentGridSentiment === 'all' || art.sentiment === currentGridSentiment)
+            : (currentGridSentiment === 'all' || art.type === currentGridSentiment);
           const matchSearch = !q ||
             art.title.toLowerCase().includes(q) ||
             (art.summary && art.summary.toLowerCase().includes(q)) ||

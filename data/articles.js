@@ -6,6 +6,7 @@
 
 window.KNOWLEDGE_CATEGORIES = [
   { id: "all", name: "全部專題知識", icon: "📚" },
+  { id: "self-cognition", name: "自我認知提升", icon: "🧭" },
   { id: "life-finance", name: "生活科學與理財", icon: "⚡" },
   { id: "business", name: "創業與店務經營", icon: "🏪" },
   { id: "growth", name: "思維模型與成長", icon: "🧠" },
@@ -13,6 +14,768 @@ window.KNOWLEDGE_CATEGORIES = [
 ];
 
 window.DEFAULT_ARTICLES = [
+  {
+    id: "self-cognition-1-true-masters-long-termism",
+    flag: "⏳",
+    country: "長期主義與時間法則",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 頂尖高手思維",
+    importance: "核心底層",
+    title: "【自我認知提升 01】真正頂尖的高手都是「長期主義者」：普通人經常忽略的三大時間客觀法則",
+    originalTitle: "True Masters Are Long-Termists: 3 Objective Laws of Time (Non-Linear Growth, Core Moat & Constructive Failure)",
+    source: "認知升級短片深度解析 (Reel #1190893542990137)",
+    subtitle: "長期主義不是「堅持就是勝利」的雞湯口號，而是一種完全不同的底層作業系統！看懂前 80% 平台期的非線性增長、三個月測試法與延遲滿足。",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "高維度認知升級",
+    coverImage: "assets/images/reel_1190893542990137.jpg",
+    videoUrl: "assets/videos/reel_1190893542990137.mp4",
+    tags: ["自我認知提升", "長期主義", "非線性增長", "護城河", "建設性失敗", "延遲滿足"],
+    summary: "長期主義不是行為，而是思維方式。頂尖高手遵循三大時間法則：<mark>① 理解非線性增長（前 80% 時間投入可能只有不到 20% 回報，越過爆發點後最後 20% 時間帶來 80% 指數級成果）</mark>；<mark>② 構建難以複製的核心優勢（若別人花 3 個月＋足夠資源就能複製你，你就是可被替代的）</mark>；<mark>③ 擁抱建設性失敗（把失敗當成優化與修正的數據）</mark>。",
+    keyTakeaway: "每天在日程中為一件「沒有短期回報、但具有長期複利價值的重要事情」留出哪怕 15 分鐘，這就是脫離即時多巴胺本能、邁向高手的起點！",
+    keyTakeaways: [
+      "【法則一：非線性增長（指數曲線）】複雜技能或重要專案的回報絕非直線。<mark>前 80% 的時間投入往往像石沉大海、只換來不到 20% 回報（平台期）；一旦越過爆發點，最後 20% 的投入將帶來 80% 的指數級回報</mark>。",
+      "【法則二：3 個月不可替代性測試】問自己：<mark>「我的核心能力，如果給另一個人 3 個月時間和足夠資源，他能複製嗎？」</mark>若答案是能，就代表隨時可被替代。高手只投入需要大量時間沉澱的專業、信譽與嚴謹思維。",
+      "【法則三：建設性失敗（數據反饋）】普通人從小害怕犯錯；<mark>高手把失敗視為「用來優化和修正的客觀數據」</mark>，主動試錯並冷靜分析哪個環節出問題，讓長期成功機率不斷墊高。",
+      "【為何多數人做不到？】現代人被高頻「即時反饋」包圍，大腦對「延遲滿足」的耐受度極低。<mark>破局行動：每天為一件「無短期回報的重要事」留出 15 分鐘</mark>。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc01-laws">
+        <h2>一、 長期主義不是雞湯，而是三大「時間的客觀法則」</h2>
+        <p>提到「長期主義」，很多人以為只是「堅持就是勝利」的空話。事實上，<mark>長期主義不是一種行為，而是一種完全不同的底層思維方式</mark>。一旦切換到這個視角，你看待努力、時間與結果的方式會發生根本改變：</p>
+
+        <div class="info-cards-grid">
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-emerald">法則 1 · 穿越平台期</div>
+            <h4>📈 理解「非線性增長（80/20 時間拐點）」</h4>
+            <p>我們習慣「一分耕耘一分收穫」的直線思維，但現實中任何複雜技能或重要專案的回報曲線都不是直線：</p>
+            <ul>
+              <li><strong>前 80% 的時間投入</strong>：可能只能獲得 <strong>20% 甚至更少</strong>的回報。努力看起來像石沉大海，這是絕大多數人放棄的「漫長平台期」。</li>
+              <li><strong>後 20% 的時間投入</strong>：只要方向正確，越過臨界爆發點後，<mark>最後 20% 的時間將帶來 80% 的指數級增長成果！</mark></li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">法則 2 · 護城河檢驗</div>
+            <h4>🏰 構建「3 個月無法複製」的核心優勢</h4>
+            <p>請思考一個殘酷問題：<mark>「你的核心能力，如果給另一個人 3 個月的時間和足夠的資源，他能複製嗎？」</mark></p>
+            <p>如果答案是「能」，那你就是可被替代的。高手很少做誰都能做的事，他們專門選擇需要大量時間積累、沉澱與試錯的領域——因為<strong>深厚的專業知識、可靠的個人信譽、嚴謹的思考能力</strong>，無法用金錢或捷徑快速買到。</p>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-badge badge-amber">法則 3 · 演算法迭代</div>
+            <h4>🔄 擁抱「建設性失敗（Constructive Failure）」</h4>
+            <p>我們從小被教育避免犯錯，但對高手而言，<mark>失敗不是需要逃避的結果，而是用來優化和修正的「數據」</mark>。</p>
+            <p>他們主動嘗試、冷靜拆解：「為什麼失敗？哪個環節出問題？如何修正？」每一次失敗都在提高長期成功的概率。</p>
+          </div>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">🚀 如何開始？「每天 15 分鐘無短期回報投資法」</div>
+          <p>為什麼多數人做不到長期主義？因為我們活在「即時反饋（發訊息要秒回、做小事要馬上拿獎賞）」的時代，大腦對<strong>延遲滿足</strong>的耐受度已大幅退化。</p>
+          <p>不需要立刻像苦行僧一樣拒絕所有快樂，只需從今天起：<mark>有意識地在每天日程中，為一件「沒有短期回報、但長期極度重要」的事情，留出哪怕 15 分鐘！</mark></p>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-2-hsp-interpersonal-energy",
+    flag: "🌿",
+    country: "高敏感人格與邊界感",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 內耗解方與自我和解",
+    importance: "高敏必讀",
+    title: "【自我認知提升 02】為什麼高敏感的人不會喜歡身邊絕大部分人？看懂「情緒雷達」背後的童年成因與天賦",
+    originalTitle: "Why Highly Sensitive People (HSP) Dislike Most People Around Them: Emotional Radar, Childhood Roots & Boundaries",
+    source: "心理學與自我覺察解析 (Reel #794983733330947)",
+    subtitle: "高敏感人能一秒捕捉語氣裡的敷衍、眼神裡的不在意與客套背後的疏離。不喜歡社交從來不是因為懶，而是因為雷達全開太耗能！",
+    createdAt: "2026-10-26",
+    readTime: "3 分鐘閱讀 + 影片",
+    difficulty: "心理覺察與療癒",
+    coverImage: "assets/images/reel_794983733330947.jpg",
+    videoUrl: "assets/videos/reel_794983733330947.mp4",
+    tags: ["自我認知提升", "高敏感族群HSP", "情緒價值", "原生家庭", "人際邊界感", "停止內耗"],
+    summary: "高敏感人能清晰感知身邊人微妙的惡意、語氣裡的敷衍與單方面情緒索取（聽對方吐槽半天，講到自己時對方卻忽略敷衍），因此極難融入無效社交。<mark>這份敏感除了天生，更多源於童年被迫為父母消化不良的情緒買單、或長期缺乏正面評價</mark>。請理解並原諒自己的敏感——<mark>敏感從來不是缺點，而是善良者的天賦、獨屬於你的溫柔與通透</mark>。",
+    keyTakeaway: "高敏感人建立強大邊界感是必然的自我保護。拒絕單方面索取情緒價值的無效社交，把高敏銳度的天賦留給真正雙向奔赴的人與深度創作！",
+    keyTakeaways: [
+      "【高敏人的社交雷達】能輕易捕捉語氣裡的敷衍、眼神的不在意、客套背後的疏離。<mark>最反感「單方面輸出卻不提供對等情緒價值」的人（他吐槽你認真聽，你講自己的事他卻敷衍轉移話題）</mark>。",
+      "【為何社交極度耗能？】高敏感人不愛工作或社交不是因為懶，而是<mark>共情力極強、下意識把別人感受放前面，別人一句無心的話會在心裡反覆琢磨，默默遷就又反覆糾結內耗</mark>。",
+      "【後天塑造的兩大童年根源】① <mark>被迫為父母情緒買單</mark>（爸媽生氣怪你不聽話、媽媽說你讓她難過，練就察言觀色避免衝突的本能）；② <mark>童年極少獲得正面評價、常被潑冷水或威脅恐嚇</mark>，造就對危險環境與他人評價極度敏銳。",
+      "【自我和解】請理解並原諒自己的敏感，這不是你的錯。<mark>敏感是善良者的天賦，是獨屬於你的溫柔與通透</mark>。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc02-hsp">
+        <h2>一、 高敏感人的「高清情緒雷達」與無效社交排斥</h2>
+        <p>高敏感的人往往不會喜歡身邊的絕大部分人，因為他們就像裝了一台高倍率雷達：</p>
+        <ul>
+          <li>能感覺到身邊人<strong>微妙的惡意</strong>，甚至能清晰察覺自己對別人的那一點惡意，同時又能捕捉到別人對自己<strong>非常微小的善意</strong>。</li>
+          <li>能輕易看穿<strong>語氣裡的敷衍、眼神裡的不在意、客套背後的疏離、相處裡的勉強</strong>。</li>
+          <li><strong>最典型的消耗場景</strong>：對方一直找你吐槽他的事，你都認真傾聽回覆；但當你談起自己的事，對方要嘛忽略、要嘛敷衍，轉頭又開始講他自己——<mark>一直單方面輸出，卻不提供對等的情緒價值</mark>，這讓高敏感人完全無法融入無效社交。</li>
+        </ul>
+
+        <h2>二、 深度溯源：你的「高敏感」是如何被訓練出來的？</h2>
+        <p>高敏感除了部分天生特質，更多是被後天環境訓練與塑造的生存機制：</p>
+        <div class="info-cards-grid two-cols">
+          <div class="info-card border-amber">
+            <div class="info-card-badge badge-amber">成因 1 · 情緒代償</div>
+            <h4>🎒 從小被迫為父母消化不了的情緒買單</h4>
+            <p>例如爸爸生氣就罵你、怪你不聽話；媽媽不斷告訴你「你讓媽媽很難過」。這讓你從小練就了<mark>把別人情緒扛在肩上的本能，逐幀分析別人的一言一行，力圖避免一切矛盾與衝突</mark>。</p>
+          </div>
+          <div class="info-card border-emerald">
+            <div class="info-card-badge badge-emerald">成因 2 · 評價焦慮</div>
+            <h4>🌧️ 童年長期被潑冷水與條件式威脅</h4>
+            <p>不管多努力，父母總在潑冷水，甚至用「下次考不好就等著瞧、再這樣就不理你了」恐嚇。這造就了<mark>對危險環境極度敏銳的識別力，也導致只要沒收到預期評價就覺得自己很糟糕、不敢嘗試可能失敗的事</mark>。</p>
+          </div>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">💚 與自己和解：敏感是善良者的天賦</div>
+          <p>那些一邊在心裡討厭過很多人、一邊又偷偷原諒了很多人的反覆內耗，最終都會化為你保護自己的<strong>清晰邊界感</strong>。請理解並原諒自己的敏感——<mark>這不是你的錯，敏感從來不是缺點，而是獨屬於你的溫柔與通透！</mark></p>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-3-drucker-true-executive-look-upward",
+    flag: "🦅",
+    country: "彼得・杜拉克管理哲學",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 格局與視角躍遷",
+    importance: "管理必讀",
+    title: "【自我認知提升 03】真高管的唯一特徵：「向上看」！杜拉克揭秘「下屬思維 vs. 高層思維」的本質分野",
+    originalTitle: "The Only Trait of a True Executive: Looking Upward Toward Organizational Contribution (Peter Drucker)",
+    source: "現代管理學之父彼得・杜拉克 (Peter Drucker) 核心思想 (Reel #1663883368369156)",
+    subtitle: "開口就說「我負責某部門、我手下管多少人」的人，職位再高本質上仍是下屬！真正的高管只有一個共同特徵：始終思考如何為整個組織貢獻價值並對最終成果負責。",
+    createdAt: "2026-10-26",
+    readTime: "3 分鐘閱讀 + 影片",
+    difficulty: "頂尖管理認知",
+    coverImage: "assets/images/reel_1663883368369156.jpg",
+    videoUrl: "assets/videos/reel_1663883368369156.mp4",
+    tags: ["自我認知提升", "彼得杜拉克", "高管思維", "向上管理", "組織貢獻", "領導力"],
+    summary: "管理學大師彼得・杜拉克指出，判斷一個人是不是「真高管」，不是看頭銜、級別或管多少人，而是看視角：<mark>多數人介紹工作時說「我管整個銷售團隊、我負責財務部」，這是在匯報自己擁有的資源與權力範圍（視角向下＝下屬思維）</mark>；真高管的唯一特徵是<mark>「向上看」——始終思考「我的工作如何為整個組織貢獻價值、為決策提供關鍵資訊，並對最終成果負責」</mark>。",
+    keyTakeaway: "職位再高，若只關注自己付出了多少、強調對下屬的管理權，本質上仍是下屬；職位再低，只要始終關注整體貢獻並對最終成果負責，本質上就是真正的高層管理者！",
+    keyTakeaways: [
+      "【靈魂拷問】大型管理諮詢公司負責人每次拜訪客戶高管必問：<mark>「你做的哪些事，能證明你拿這份薪水是合理的？」</mark>",
+      "【視角向下（偽高管／下屬思維）】回答「我負責某部門、我管整個團隊、我手下有多少人」。<mark>本質是在炫耀擁有的資源與權力範圍、關注自己付出了多少努力，在杜拉克眼中這依然是「下屬思維」</mark>。",
+      "【視角向上（真高管思維）】注意！「向上看」絕不是迎合上司或討好老闆，而是思考：<mark>① 我如何為決策者提供做出正確決策所需的關鍵資訊？② 客戶未來需要什麼產品？③ 總裁未來要面對哪幾種決策方案？</mark>",
+      "【杜拉克最終定律】<mark>職位高低不決定你是不是高管，「是否對整個組織的最終成果與貢獻負責」才決定！</mark>"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc03-drucker-upward">
+        <h2>一、 一道價值百萬的靈魂提問：「你憑什麼拿這份高薪？」</h2>
+        <p>現代管理學之父<strong>彼得・杜拉克（Peter Drucker）</strong>在書中分享過一個經典案例：一位大型管理顧問公司的負責人，每接手一個新專案，都會先拜訪客戶公司所有的高管，並在聊完業務後問一個極為深刻的問題：</p>
+        <div class="callout callout-amber">
+          <div class="callout-title">💬 「你做的哪些事，能證明你拿這份薪水是合理的？」</div>
+          <p>結果發現，絕大多數高管的回答都是同一種模式，只有極少數人給出了截然不同的答案：</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>思維維度</th>
+                <th>絕大多數人的回答（視角向下 👇）</th>
+                <th class="col-highlight">極少數真高管的回答（視角向上 👆）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>典型回答</strong></td>
+                <td>「我負責財務部」、「我管理著整個銷售團隊」、「我手下管了多少人」。</td>
+                <td class="col-highlight">
+                  1. 「我的工作是為公司管理者提供<strong>做出正確決策所需的關鍵資訊</strong>。」<br>
+                  2. 「我的職責是弄清楚<strong>客戶未來需要什麼樣的產品</strong>。」<br>
+                  3. 「我需要思考並準備好<strong>總裁未來要面對的幾種決策方案</strong>。」
+                </td>
+              </tr>
+              <tr>
+                <td><strong>底層關注點</strong></td>
+                <td>匯報自己<strong>擁有的資源、權力範圍與付出的苦勞</strong>。</td>
+                <td class="col-highlight"><mark>思考自己能為整個組織貢獻什麼成果，並對最終結果負責。</mark></td>
+              </tr>
+              <tr>
+                <td><strong>杜拉克定性</strong></td>
+                <td><span class="tag-pill pill-gray">本質上依然是「下屬」</span></td>
+                <td class="col-highlight"><span class="tag-pill pill-green">真正的高層管理者（True Executive）</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">🎯 重新定義「向上看」：對全局成果負責，而非討好老闆</div>
+          <p>杜拉克強調，真正的「向上看」絕不是去迎合上司、揣摩上意，而是<mark>跳出自己的一畝三分地，始終從「整個組織要達成什麼最終成果」來倒推自己的工作價值</mark>。哪怕一個人目前的職位很基層，只要具備這種視角，他在本質上就已經是一位高層管理者！</p>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-4-why-strict-management-causes-turnover",
+    flag: "⚖️",
+    country: "組織管理與人性洞察",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 團隊領導必讀",
+    importance: "管理避坑",
+    title: "【自我認知提升 04】為什麼管理一「收緊」，優秀員工就開始流失？把「對過程的死板監控」換成「對結果的高標準」！",
+    originalTitle: "Why Tightening Management Drives Away Top Talent: Process Surveillance vs. High Standards for Results (Drucker)",
+    source: "杜拉克知識工作者管理哲學 (Reel #831148733373922)",
+    subtitle: "很多主管委屈抱怨現在員工抗壓性差，卻沒發現自己把「嚴格」扭曲成了「緊盯打卡、繁瑣匯報與防賊式監控」。看懂「成本 vs. 資產」與最高級的嚴格管理！",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "店務與團隊領導必備",
+    coverImage: "assets/images/reel_831148733373922.jpg",
+    videoUrl: "assets/videos/reel_831148733373922.mp4",
+    tags: ["自我認知提升", "團隊管理", "員工流失", "彼得杜拉克", "目標管理", "知識工作者"],
+    summary: "為什麼管理稍微收緊，員工就離職？不是員工吃不了苦，而是管理者對「嚴格」產生嚴重偏差：<mark>把嚴格變成了「緊盯打卡、頻繁匯報、對小錯嚴厲追責」的防範式監控</mark>。現代員工大腦中的專業知識就是生產資料，粗暴管控會嚴重挫傷專業尊嚴。<mark>最高級的嚴格，是「放棄干預具體過程，但對最終績效結果與責任提出極高標準，絕不容忍平庸」</mark>！",
+    keyTakeaway: "用「對成果的高標準」取代「對過程的死板監控」，用「激發責任感」取代「靠恐懼建立的威懾力」，才能留住真正優秀的人才！",
+    keyTakeaways: [
+      "【偽嚴格（低級管控）】假設員工都不自覺，把精力放在<mark>緊盯打卡時間、頻繁匯報流程、對小錯誤嚴厲追責</mark>。當管理退化為單純的「監視與防範」，最先被逼走的一定是有能力的優秀員工。",
+      "【時代本質的改變：成本 vs. 資產】過去體力勞動時代，生產工具屬於工廠，員工被視為需壓縮管控的「成本」；現代組織中，<mark>員工大腦裡的專業知識就是生產工具（自己掌握生產資料），具有高流動性與自主需求，必須視為需引導投入的「資產」</mark>。",
+      "【真嚴格（杜拉克最高級的嚴格）】杜拉克極度推崇嚴格管理，但指向完全不同的維度：<mark>不再干涉下屬具體怎麼幹活，而是清晰界定目標、要求為最終產出負責，且「絕不容忍平庸績效，敢於將無法勝任者調離崗位」</mark>！"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc04-strict-mgmt">
+        <h2>一、 為什麼「防賊式管理」一定會逼走最優秀的人？</h2>
+        <p>許多管理者發現團隊只要「稍微嚴格一點」，員工就開始離職，往往歸咎於年輕人抗壓性差。但借用彼得・杜拉克的視角審視，問題出在<strong>我們把「嚴格」理解成了「監視」</strong>：</p>
+        <ul>
+          <li><strong>過時的假設</strong>：默認員工是不自覺的，必須時刻監督驅使，於是把精力放在<strong>緊盯打卡時間、繁瑣的匯報流程、對小錯誤的嚴厲追責</strong>。</li>
+          <li><strong>生產資料的轉移</strong>：過去體力勞動者的機器屬於工廠，人被當成需壓縮的「成本」；現代知識工作者的<strong>生產工具就是自己大腦裡的專業知識</strong>（人自己掌握生產資料），需要被視為「資產」。用管控成本的粗暴手段對待資產，只會挫傷專業尊嚴，讓優秀人才立刻用腳投票。</li>
+        </ul>
+
+        <h2>二、 「偽嚴格」vs.「最高級的嚴格」對照表</h2>
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>比較維度</th>
+                <th>❌ 低級的「偽嚴格」（過程監控）</th>
+                <th class="col-highlight">✅ 杜拉克「最高級的嚴格」（結果高標準）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>管控焦點</strong></td>
+                <td>死死盯住工作過程、打卡分秒、表面服從。</td>
+                <td class="col-highlight"><mark>不干涉具體怎麼幹活，但對「最終績效結果與責任」提出極高標準。</mark></td>
+              </tr>
+              <tr>
+                <td><strong>驅動力量</strong></td>
+                <td>靠防範、懲罰與恐懼建立威懾力。</td>
+                <td class="col-highlight"><mark>透過目標管理（MBO）引導自我控制，激發專業責任感與成就感。</mark></td>
+              </tr>
+              <tr>
+                <td><strong>對待平庸</strong></td>
+                <td>只要乖乖聽話、準時打卡，不出大錯就能混日子。</td>
+                <td class="col-highlight"><strong>絕不容忍平庸的績效！</strong>敢於果斷將無法勝任成果標準的人調離崗位。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-5-psychology-of-easily-anxious-people",
+    flag: "🌊",
+    country: "焦慮心理深度拆解",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 情緒鬆綁指南",
+    importance: "減壓必讀",
+    title: "【自我認知提升 05】特別容易焦慮的人有哪些心理共性？打破「確定性成癮」與「災難化預演」的三大自救法",
+    originalTitle: "Psychological Analysis of Easily Anxious People: Certainty Addiction, Hypervigilance & 3 Self-Healing Practices",
+    source: "心理學與認知行為解析 (Reel #1590124429213451)",
+    subtitle: "一件事只要還沒塵埃落定，等待的過程就無比煎熬；明明一切順利，卻擔心順利不會持續太久。看懂焦慮背後的「控制慾」與三步鬆綁心法！",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "情緒管理實戰",
+    coverImage: "assets/images/reel_1590124429213451.jpg",
+    videoUrl: "assets/videos/reel_1590124429213451.mp4",
+    tags: ["自我認知提升", "焦慮心理", "完美主義", "確定性需求", "活在當下", "情緒管理"],
+    summary: "特別容易焦慮的人有四大共性：<mark>① 追求絕對確定性（恐懼懸而未決，大腦自動預演無數種壞結果）</mark>；<mark>② 無法享受當下快樂（成績好怕下次考差、工作好怕被裁員，時刻處於警戒）</mark>；<mark>③ 把小事與無心表情無限放大</mark>；<mark>④ 完美主義傾向（不接受差不多就行）</mark>。解方在於練習擁抱變數、區分「真實威脅 vs. 想像威脅」，並允許自己與生活不完美。",
+    keyTakeaway: "當焦慮湧上來時，問自己兩句話：「現在這一刻，我是安全的嗎？」、「我現在的擔心能改變結果嗎？」把耗費在防範未來的精力收回來享受當下！",
+    keyTakeaways: [
+      "【四大焦慮共性】① <mark>恐懼懸而未決（內心有強烈控制慾，需靠預知結果獲取安全感）</mark>；② <mark>快樂防禦機制（即使今天一切順利，也擔心順利不會持續太久）</mark>；③ 威脅信號放大器（別人隨口一句話或無心表情就反覆琢磨）；④ 完美主義緊繃（無法接受差不多就行）。",
+      "【早年成因】源於成長過程中長期處於緊張充滿變數的環境，當時「時刻保持警覺」是有效的生存策略，長大後卻變成無法在安全環境中放鬆的負擔。",
+      "【三大鬆綁自救法】① <mark>接受不確定性，問自己「現在這一刻我是安全的嗎？」</mark>；② <mark>區分「真實威脅 vs. 想像威脅」（問自己：現在擔心能改變什麼嗎？）</mark>；③ 降低完美期待，允許自己犯錯。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc05-anxiety">
+        <h2>一、 深度畫像：特別容易焦慮的人，大腦裡在發生什麼？</h2>
+        <div class="info-cards-grid two-cols">
+          <div class="info-card">
+            <div class="info-card-badge badge-amber">特徵 1 · 恐懼懸而未決</div>
+            <h4>🔮 確定性成癮與「壞結果預演」</h4>
+            <p>一件事只要還沒塵埃落定（等考試成績、等面試、甚至等朋友回訊息），等待過程就無比煎熬。<mark>內心深處有強烈的控制慾，大腦會自動啟動無數種災難化假設與預演</mark>。</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-badge badge-red">特徵 2 · 警戒式生存</div>
+            <h4>🛡️ 無法享受當下的快樂</h4>
+            <p>即使今天一切順利，也會擔心「這種順利不會持續太久」——<mark>成績好卻擔心下次考不好、工作優秀卻總怕被裁員、感情穩定卻怕對方變心</mark>，時刻處於高度警戒狀態。</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">特徵 3 · 細節放大鏡</div>
+            <h4>🔍 捕捉不存在的威脅信號</h4>
+            <p>別人一個無心的表情、一句隨口的話，都能反覆分析背後的含義。這是早年長期處於緊張環境養成的「防禦警報器」，長大後卻成了沉重負擔。</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-badge badge-purple">特徵 4 · 完美主義枷鎖</div>
+            <h4>📏 拒絕「差不多就行」</h4>
+            <p>對自己與周遭有過高期待，一旦現實與期待不符就產生強烈失控感，寧願花海量精力防範失敗，讓自己永遠緊繃。</p>
+          </div>
+        </div>
+
+        <h2>二、 改善焦慮的「三步認知重塑法」</h2>
+        <div class="checklist-box">
+          <label class="checklist-item">
+            <input type="checkbox" checked />
+            <span><strong>Step 1｜拉回當下安全感：</strong>生活本就沒有 100% 可控的事。當開始擔心未來時，立刻問自己：<mark>「現在這一刻，我是安全的嗎？」</mark>（絕大多數時候答案都是肯定的）。</span>
+          </label>
+          <label class="checklist-item">
+            <input type="checkbox" checked />
+            <span><strong>Step 2｜區分「真實威脅」與「想像威脅」：</strong>90% 讓你焦慮的事從未發生。問自己：<mark>「這件事真的值得我現在為它擔心嗎？我現在的擔心能改變什麼嗎？」</mark></span>
+          </label>
+          <label class="checklist-item">
+            <input type="checkbox" checked />
+            <span><strong>Step 3｜允許自己與生活「不完美」：</strong>完美本就是無法達到的標準。放下把所有精力用來防範失敗的執念，留出空間享受當下的美好。</span>
+          </label>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-6-break-the-pink-playpen-trap",
+    flag: "🔨",
+    country: "反演算法豢養與破局",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "warning",
+    sentimentLabel: "⚠️ 演算法清醒劑",
+    importance: "當代必讀",
+    title: "【自我認知提升 06】千萬別躺進演算法的「粉色圍欄」！打破史金納箱多巴胺豢養，用「反向馴化」搶奪生產資料",
+    originalTitle: "Break Out of the Algorithm's 'Pink Playpen': Skinner Box Dopamine Trap vs. Reverse Domestication",
+    source: "認知突圍與商業思維解析 (Reel #1809001343811329)",
+    subtitle: "你以為你在白嫖網路內容，其實演算法正在收割你的青春！拆解心理學「史金納箱實驗」，學會像真正成事的人一樣刷手機找「資訊差與商業底層邏輯」。",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "認知清醒必讀",
+    coverImage: "assets/images/reel_1809001343811329.jpg",
+    videoUrl: "assets/videos/reel_1809001343811329.mp4",
+    tags: ["自我認知提升", "粉色圍欄", "史金納箱", "多巴胺豢養", "反向馴化", "資訊差"],
+    summary: "什麼是「粉色圍欄」？就是演算法用無腦爽文神劇、搞笑段子與情緒吐槽為你量身打造的「慢性麻醉嬰兒床」——<mark>如同心理學「史金納箱（Skinner Box）」裡瘋狂按按鈕直到累死的老鼠，你以為在白嫖內容，其實演算法在收割你的青春，現實裡的底牌半張都沒增加</mark>！破局必須執行<mark>「反向馴化」：主動搜尋商業拆解、科技趨勢、法律與底層邏輯，搶奪能換成真金白銀的生產資料</mark>。",
+    keyTakeaway: "柵欄被刷得再粉嫩也是用來豢養的！從今天起主動訓練你的演算法首頁：別人看熱鬧，你要看背後的商業邏輯、資訊差與前沿科技工具庫！",
+    keyTakeaways: [
+      "【什麼是粉色圍欄？】演算法不攔著你出門，但用無腦爽劇、整蠱段子、替你發洩情緒的吐槽把你哄得不想出門。<mark>你以為在網上看到了全世界，其實只是在演算法定製的嬰兒床裡翻了個身</mark>。",
+      "【史金納箱實驗（Skinner Box）】老鼠按按鈕就掉食物，最後什麼都不幹瘋狂按按鈕活活累死。<mark>把食物換成幾十秒的感官刺激、把按鈕換成滑螢幕的手指，那個箱子就是你的手機</mark>！",
+      "【反向馴化三部曲】① <mark>刷手機不找樂子，而是找「資訊差」（看背後的商業邏輯是什麼？這套模式我能不能用？）</mark>；② 硬啃能保命的硬核常識（底層法律邏輯、前沿科技工具庫）；③ 站在山頂看宏觀趨勢（不謀全局者，不足謀一域）。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc06-pink-playpen">
+        <h2>一、 警惕「粉色圍欄（Pink Playpen）」：多巴胺豢養與史金納箱</h2>
+        <p>最近有一個非常犀利的概念叫<strong>「粉色圍欄」</strong>：一打開手機，撲面而來的全是不需要動腦的爽文神劇、讓你哈哈大笑的段子、或是替你發洩情緒的吐槽。它不攔著你出門，但它把你哄得根本不想出門。</p>
+        <div class="callout callout-amber">
+          <div class="callout-title">🐀 心理學「史金納箱實驗（Skinner Box）」的現代翻版</div>
+          <p>科學家把老鼠關在箱子裡，只要一按按鈕就會掉出食物；後來老鼠什麼都不幹了，每天瘋狂按按鈕（哪怕不餓也按），最後活活累死在箱子裡。</p>
+          <p><strong>把「食物」換成幾十秒一個的感官刺激，把「按鈕」換成滑螢幕的手指——這個箱子是不是跟手機一模一樣？</strong><mark>你以為你在白嫖免費內容，其實演算法正在收割你的青春！</mark>看了一整天別人怎麼逆襲炫富，除了收穫焦慮和短暫爽感，現實裡的你「底牌並沒有增加半張」。</p>
+        </div>
+
+        <h2>二、 如何砸碎粉色圍欄？三招執行「反向馴化」</h2>
+        <div class="info-cards-grid">
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-emerald">第 1 招 · 搶奪生產資料</div>
+            <h4>🔍 別人看熱鬧，你找「資訊差與商業邏輯」</h4>
+            <p>真正能成事的人刷手機從來不是為了找樂子，而是在找<strong>資訊差</strong>：<mark>「這玩意背後的商業邏輯是什麼？這套模式我能不能用？怎麼靠它賺到錢？」</mark>底氣是靠手裡捏著的技能、資源與對規則的理解攢出來的。</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">第 2 招 · 硬啃硬核常識</div>
+            <h4>🛠️ 累積看似枯燥但能保命的武器</h4>
+            <p>主動去啃<strong>底層法律邏輯、前沿科技工具庫（如 AI 工具鏈）</strong>。不要覺得宏觀經濟、行業趨勢太大太虛——古人云：「不謀全局者，不足謀一域。」站在山頂看清大路朝哪開，才不會在半山腰跑進死胡同。</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-badge badge-purple">第 3 招 · 反向訓練首頁</div>
+            <h4>🎯 主動餵養演算法，拒絕廉價幻境</h4>
+            <p>從今天起，主動去搜尋<strong>「商業拆解、科技趨勢、搞錢邏輯」</strong>。<mark>你不主動挑選你要看的世界，大數據就會隨便塞給你一個廉價的幻境！</mark></p>
+          </div>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-7-associate-with-high-energy-people",
+    flag: "🛡️",
+    country: "成人世界頂級篩選法則",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "warning",
+    sentimentLabel: "⚠️ 社交避坑鐵律",
+    importance: "人際必讀",
+    title: "【自我認知提升 07】為什麼成功的人只跟「條件好」的人接觸？看懂「匱乏導致變形」與「幸福者退讓原則」",
+    originalTitle: "Why Successful People Only Associate with High-Capacity People: Scarcity Mindset Deformation & The Happy Person Yielding Rule",
+    source: "社會心理學與人際博弈實錄 (Reel #2406325776540866)",
+    subtitle: "這裡的「條件好」不是指銀行幾個零，而是綜合能量值（情緒穩定、邏輯清晰、解決問題能力與善意餘量）。收起氾濫的聖母心，別在不對等的風險博弈中耗盡生命！",
+    createdAt: "2026-10-26",
+    readTime: "5 分鐘閱讀 + 影片",
+    difficulty: "人際防身必讀",
+    coverImage: "assets/images/reel_2406325776540866.jpg",
+    videoUrl: "assets/videos/reel_2406325776540866.mp4",
+    tags: ["自我認知提升", "人際篩選法則", "匱乏心理學", "幸福者退讓原則", "能量管理", "停止聖母心"],
+    summary: "真正意義上的「條件好」，是指一個人的<mark>綜合能量值：穩定的情緒、清晰的邏輯、解決問題的能力，以及對世界的善意餘量</mark>。相反地，長期處於匱乏狀態會導致大腦「頻寬變窄（匱乏導致變形）」，容易衍生出「我弱我有理」的吸血巨嬰心態或嫉妒破壞慾。請牢記<mark>「幸福者退讓原則」與「放下助人情結，尊重他人命運」</mark>，把精力留給高頻乾淨的圈子！",
+    keyTakeaway: "人到中年，精力是比黃金還貴的東西！那些條件好的人，不是因為有錢才正常，而是因為「心智正常、情緒穩定」才變得有錢。把自己活成高能量的人，並把圈子打掃乾淨！",
+    keyTakeaways: [
+      "【重新定義「條件好」】不單指財富，而是<mark>「綜合能量值」＝ 穩定情緒 ＋ 清晰邏輯 ＋ 解決問題能力 ＋ 善意餘量</mark>。內在自我認同飽滿的人，談合作看利益共贏、交朋友給情緒價值，溝通成本極低。",
+      "【殘酷底層：匱乏導致變形】腦神經科學與社會心理學證實，長期稀缺會讓大腦「頻寬變窄」，把聰明才智全用在算計別人、逃避 10 塊錢責任或「我弱我有理」的巨嬰吸血心態上。",
+      "【幸福者退讓原則】遇到滿臉戾氣、沉沒成本為零的人趕緊繞道走！<mark>你有美好的未來與愛你的家人，跟心態扭曲的人爭執是一場「極不對等的風險博弈」（贏了只省幾塊錢，輸了搭上半條命）</mark>。",
+      "【強者的向下包容 vs. 社交節能】身價過億的大哥面對保潔阿姨打碎 20 萬紫砂壺蓋，第一句話是關心阿姨手有沒有劃傷，因為強者知道計較的性價比太低。<mark>收起氾濫的聖母心，放下助人情結，把圈子打掃乾淨，好運自然來</mark>。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc07-screening">
+        <h2>一、 重新定義「條件好」：綜合能量值的正向循環</h2>
+        <p>「只跟條件好的人接觸」聽起來很功利，但當你把「條件好」的定義拉齊，就會發現這是成年人最頂級的篩選法則：</p>
+        <div class="callout callout-emerald">
+          <div class="callout-title">🌟 什麼是真正的「條件好」？（綜合能量值）</div>
+          <p>它不單指銀行卡裡有幾個零，而是包含四項核心指標：<mark>① 穩定的情緒、② 清晰的邏輯、③ 解決問題的能力、④ 對這個世界的「善意餘量」</mark>。</p>
+          <p>那些經濟寬裕、事業穩步上升的人，不是因為有錢才正常，而是<strong>因為他們心智正常、情緒穩定，所以才能變得有錢！</strong>跟他們談合作看的是利益共贏，交朋友給的是情緒價值與資源互換，溝通成本極低。</p>
+        </div>
+
+        <h2>二、 為什麼「長期匱乏」容易導致行為與思維變形？</h2>
+        <p>腦神經科學與社會心理學研究指出：長期的稀缺狀態會讓人的<strong>「心智頻寬（Bandwidth）變窄」</strong>，所有注意力被生存焦慮佔據，進而出現兩種極端風險：</p>
+        <div class="info-cards-grid two-cols">
+          <div class="info-card border-amber">
+            <div class="info-card-badge badge-amber">風險 1 · 巨嬰吸血心態</div>
+            <h4>🧛 「我弱我有理」與算計身邊人</h4>
+            <p>把好心借住的老房子弄得滿屋臭味、水龍頭淹水、燈壞了點蠟燭把牆燻黑，還理直氣壯說「反正不是我的房子憑什麼花錢修」；打碎 10 塊錢杯子先跳起來指責你放的位置不對。<mark>你拉他一把，他反手把你拖進泥潭還怪你弄髒他衣服。</mark></p>
+          </div>
+          <div class="info-card border-red">
+            <div class="info-card-badge badge-red">風險 2 · 幸福者退讓原則</div>
+            <h4>⚡ 遠離「沉沒成本為零」的不對等博弈</h4>
+            <p>家庭美滿、事業在上升期的人，遇到滿臉戾氣的人一定要繞著走！因為對方的沉沒成本是零，不在乎跟你一換一；<mark>你贏了只是省下幾塊錢停車費，輸了搭進去的是美好未來與家人</mark>。</p>
+          </div>
+        </div>
+
+        <h2>三、 頂級強者的「磁場」與中年社交節能守則</h2>
+        <ul>
+          <li><strong>強者對下的極致包容</strong>：身價過億的外貿大哥，面對保潔阿姨不小心打碎 20 多萬拍來的大師紫砂壺蓋，第一句話是問：「阿姨，妳手沒劃傷吧？」接著笑說：「算了，沒蓋子正好當公道杯用。」因為強者知道跟弱者計較的性價比太低，他們的時間要用來創造更大價值。</li>
+          <li><strong>收起氾濫的聖母心</strong>：<mark>放下助人情結，尊重他人命運。</mark>你不是菩薩，渡不了世間所有劫難。把精力留給心智成熟、情緒穩定、能量高頻的人，把圈子打掃乾淨，就是最高級的改命（旺自己）！</li>
+        </ul>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-8-frequent-self-recording-success-diary",
+    flag: "📓",
+    country: "神經科學與自信重塑",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 最低成本改命武器",
+    importance: "每日必做",
+    title: "【自我認知提升 08】一定要頻繁記錄自己！神經科學證實：5 年後決策速度快 3 倍的「成功日記（每天 5 個成果）」法則",
+    originalTitle: "Why Frequent Self-Recording Changes Your Destiny: Neuroscience & The 'Success Journal' from Bodo Schäfer's Money",
+    source: "神經科學研究 ×《小狗錢錢》財富自信心法 (Reel #1015455891001411)",
+    subtitle: "人類平均每天會忘記 70% 的經歷！人最大的敵人不是別人，而是自己的「麻木與遺忘」。別寫流水帳，用《小狗錢錢》的「每日 5 個成功成果」打造最小化正向反饋系統！",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "立即可執行",
+    coverImage: "assets/images/reel_1015455891001411.jpg",
+    videoUrl: "assets/videos/reel_1015455891001411.mp4",
+    tags: ["自我認知提升", "成功日記", "小狗錢錢", "自我監控系統", "正向反饋", "決策力"],
+    summary: "神經科學期刊研究顯示：<mark>人類平均每天會忘記 70% 的經歷，但持續記錄自己的人，5 年後的決策速度比普通人快整整 3 倍</mark>！真正的記錄不是記流水帳，而是建立「自我監控與正向反饋系統」。最簡單有效的方法來自經典理財書《小狗錢錢》：<mark>每天寫下至少 5 個自己的成果（任何小事都可以），把注意力集中在「你知道的、你能做到的、你擁有的東西」上</mark>。",
+    keyTakeaway: "你能不能賺到錢，取決於你有沒有「自信」；而提高自信最簡單的方法，就是每天寫下 5 個成功成果，徹底改寫你的內在身份認同！",
+    keyTakeaways: [
+      "【科學數據支撐】人類每天遺忘 70% 經歷，導致「以為很努力其實在瞎忙、以為在進步其實是無效重複」。<mark>持續記錄的人，5 年後決策速度比普通人快 3 倍</mark>。",
+      "【《小狗錢錢》核心秘訣】能不能賺到錢，看的不是有沒有好點子，而是「有沒有自信」。<mark>過度自信總比缺乏自信好得多！每天寫下至少 5 個成功成果（再小的事都算）</mark>。",
+      "【注意力吸引法則】「把精力集中在你知道的、你能做到的、和你擁有的東西上。」<mark>寫成功日記會強迫大腦每天搜尋生活中的正向成果，把內心信念從「我很普通」改寫為「我是一個能成事的人」</mark>！"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc08-recording">
+        <h2>一、 為什麼 99% 的人長期低估了「記錄自己」的威力？</h2>
+        <p>普通人翻身最低成本的武器，其實就是<strong>「頻繁記錄自己」</strong>：</p>
+        <ul>
+          <li><strong>神經科學實證</strong>：人類平均每天會忘記 <strong>70%</strong> 的經歷；但那些持續記錄自己的人，<mark>5 年後的決策速度比普通人快了整整 3 倍！</mark></li>
+          <li><strong>擊敗「麻木與遺忘」</strong>：人最大的敵人不是別人，而是自己的麻木和遺忘——你以為自己很努力，其實是在瞎忙；以為自己在進步，其實是無效重複。記錄就像一面鏡子，逼你每天看清真實的自己。</li>
+        </ul>
+
+        <h2>二、 別寫流水帳！《小狗錢錢》改變命運的「成功日記」寫法</h2>
+        <p>很多人以為記錄就是寫「今天吃了啥、幹了啥、心情如何」的流水帳，那完全是浪費。真正的記錄是一套<strong>「最小化打造正向反饋的自我監控系統」</strong>：</p>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">🐶 源自全球暢銷書《小狗錢錢》的黃金法則</div>
+          <p>書中指出：<strong>「你能不能賺到錢，看的不是你有沒有好點子，甚至不是你有多優秀，而是你有沒有這個『自信』！」</strong></p>
+          <p><strong>具體實踐步驟（每天 3 分鐘）：</strong></p>
+          <ol class="styled-list">
+            <li><strong>每天寫下至少 5 個「成功成果」</strong>：任何小事都可以（例如：今天準時早起運動、把店裡帳目整理乾淨、讀完一篇深度知識卡、拒絕了一次無效社交）。</li>
+            <li><strong>不要懷疑「這麼小的事也算成果嗎？」</strong>：別懷疑，這就是成果！用《小狗錢錢》的話說：<mark>「過於自信，總比缺乏自信要好得多！」</mark></li>
+            <li><strong>聚焦三大核心</strong>：成功的秘訣是——<mark>「把精力集中在你知道的、你能做到的，和你擁有的東西上。」</mark>當你每天尋找 5 個成果時，你的注意力就從「我很失敗、我很普通」自動切換成「我怎麼樣才行、我其實是一個很能成事的人」！</li>
+          </ol>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-9-anthropic-amanda-askell-fable-prompt",
+    flag: "🦊",
+    country: "AI 多巴胺代餐學習法",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 3分鐘硬核學習邪修",
+    importance: "AI 玩法必收",
+    title: "【自我認知提升 09】半夜睡不著別刷短影音！Anthropic 靈魂導師揭秘「寓言故事 Prompt」：3 分鐘無痛吸收研究生級硬核知識",
+    originalTitle: "Replace Doomscrolling with AI Fables: Anthropic Philosopher Amanda Askell's Favorite Prompt for Graduate-Level Concepts",
+    source: "Anthropic 性格對齊負責人 Amanda Askell 訪談精華 (Reel #992731650020473)",
+    subtitle: "親手寫下 Claude 數萬字「AI 憲法」的哲學家 Amanda Askell，私藏最愛的「對抗無聊邪修玩法」：讓 AI 把艱澀的研究生概念編成懸疑寓言故事，十年都不會忘！",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "趣味認知升級",
+    coverImage: "assets/images/reel_992731650020473.jpg",
+    videoUrl: "assets/videos/reel_992731650020473.mp4",
+    tags: ["自我認知提升", "AmandaAskell", "Anthropic", "AI提示詞", "寓言學習法", "湧現能力"],
+    summary: "刷短影片對抗無聊只會越刷越空虛。Anthropic 性格對齊團隊負責人（Claude 憲法作者）Amanda Askell 分享她最愛的「AI 多巴胺代餐 Prompt」：<mark>請 AI 從某個領域挑選一個「研究生水準的概念」，先別告訴你是什麼，用一個完整的「寓言故事」講出來，直到結尾才讓你恍然大悟，最後再解析概念與隱喻對應關係</mark>。人腦天生愛聽故事，術語會忘，但故事與理解十年不忘！",
+    keyTakeaway: "直接複製下方的「Amanda Askell 寓言故事提示詞」，今晚無聊時挑一個物理、經濟、心理或 AI 領域試試看，把滑手機的空虛換成醍醐灌頂的腦內高潮！",
+    keyTakeaways: [
+      "【人物背景】Amanda Askell 是 Anthropic 性格對齊團隊負責人，親手撰寫了 Claude 數萬字的「憲法（Soul Document）」，負責教導 AI 成為一個什麼樣的人。",
+      "【萬能寓言 Prompt】<mark>「請你從［某領域］挑一個研究生水平的概念，先別告訴我是什麼，用一個寓言故事把它完整講出來，盡量在故事快結尾時才讓我恍然大悟；講完後再解釋這個概念，以及故事裡的隱喻分別對應什麼。」</mark>",
+      "【實戰案例：《猜詞人》與 AI 湧現能力（Emergence）】山谷圖書館學徒阿玲每天練習「猜館長念的下一個詞（Next-token prediction）」，準確率折線圖平穩上升；第 9 年卻突然直接聽懂從未學過的西域偏僻方言——<mark>量變在折線圖底下悄悄積累，越過臨界點後產生連自己都說不清的「湧現能力」</mark>！",
+      "【為什麼十年不忘？】人腦幾千年來演化出對「故事」最強的記憶力。術語會忘記，但「圖書館、猜詞女孩、西域商人」的畫面與底層理解會永久留在腦海裡。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc09-fable-prompt">
+        <h2>一、 對抗無聊的「AI 多巴胺代餐」：Amanda Askell 的私房玩法</h2>
+        <p>當你半夜睡不著或無聊時，刷短影片往往越刷越空虛。這支影片拆解了 <strong>Anthropic 性格對齊團隊負責人 Amanda Askell</strong>（Claude 數萬字「AI 憲法」的執筆者）在內部訪談中隨口分享、卻讓人驚為天人的<strong>「3 分鐘白嫖硬核知識 Prompt」</strong>：</p>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">📋 一鍵複製：Amanda Askell 的「研究生概念寓言 Prompt」</div>
+          <p><mark>「請你從【經濟學／心理學／量子物理／AI／商業博弈（任選一領域）】挑一個研究生水平的概念，先別告訴我是什麼，用一個寓言故事把它完整地講出來，盡量在故事快結尾的時候才讓我恍然大悟。講完之後，再解釋一下這個概念，以及故事裡的隱喻分別對應什麼。」</mark></p>
+        </div>
+
+        <h2>二、 範例實測：用《猜詞人》寓言秒懂 AI 最神秘的「湧現能力（Emergence）」</h2>
+        <p>當對 AI 輸入上述指令並指定「AI 領域」時，它生成了一個名為<strong>《猜詞人》</strong>的寓言故事：</p>
+        <div class="info-cards-grid two-cols">
+          <div class="info-card">
+            <div class="info-card-badge badge-blue">Part 1 · 寓言故事《猜詞人》</div>
+            <h4>📚 山谷圖書館裡的猜詞學徒「阿玲」</h4>
+            <p>山谷裡有一座一輩子讀不完的圖書館，學徒阿玲每天只做一件事：<strong>館長念一段話停下來，阿玲猜下一個詞</strong>。一開始館長念「昨晚風雨大作，我……」，阿玲猜「吃飯」引發哄堂大笑。</p>
+            <p>幾年後她越猜越準，學者為她的準確率畫了一張平穩爬升的折線圖。到了第 9 年，一位西域商人帶來從未有人整理過的偏僻方言舊契約，卡在一個詞上，<strong>阿玲竟隨口接了出來！</strong>沒人教過她這種方言，折線圖上也毫無徵兆——原來在準確率折線底下，有某種東西悄悄越過了門檻。</p>
+          </div>
+          <div class="info-card highlight-card">
+            <div class="info-card-badge badge-emerald">Part 2 · 隱喻解碼與恍然大悟</div>
+            <h4>⚡ 對應概念：大型語言模型的「湧現（Emergence）」</h4>
+            <ul>
+              <li><strong>山谷無盡圖書館</strong> ➔ 海量預訓練語料庫（Training Corpus）。</li>
+              <li><strong>猜下一個詞的遊戲</strong> ➔ LLM 的核心機制「Next-Token Prediction」。</li>
+              <li><strong>平穩上升的折線圖</strong> ➔ 訓練損失函數（Loss Curve）平滑下降。</li>
+              <li><strong>突然聽懂未知西域方言</strong> ➔ <mark>湧現能力（Emergent Abilities）：當參數與訓練量跨越臨界點，突然誕生出從未直接訓練過的推理與跨語言能力！</mark></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-10-brutal-business-truth-uselessness-fountain",
+    flag: "⛲",
+    country: "頂級商業與心理帳戶",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 顛覆級商業洞察",
+    importance: "創業必讀",
+    title: "【自我認知提升 10】商業最殘酷的真相：為什麼「無用」反而永恆？把用戶拉離算帳的「水龍頭」，推向情感湧動的「噴泉」！",
+    originalTitle: "The Brutal Truth of Business: Why 'Uselessness' Is Eternal — Mental Accounting, Faucets vs. Fountains in the AI Era",
+    source: "頂級商業邏輯與消費心理學拆解 (Reel #4326676697642929)",
+    subtitle: "如果把泡泡瑪特（Pop Mart）的腦袋拔下來塞進一個隨身碟，它還能做到 3800 億市值嗎？答案是絕不可能！因為一旦「有用」，消費者就會開始算帳說「夠用了」！",
+    createdAt: "2026-10-26",
+    readTime: "4 分鐘閱讀 + 影片",
+    difficulty: "商業定價與定位神作",
+    coverImage: "assets/images/reel_4326676697642929.jpg",
+    videoUrl: "assets/videos/reel_4326676697642929.mp4",
+    tags: ["自我認知提升", "商業底層邏輯", "無用之用", "心理帳戶", "情緒價值", "泡泡瑪特", "AI時代商業"],
+    summary: "為什麼泡泡瑪特塑膠娃娃什麼用都沒有，卻能超越萬代、三麗鷗成為全球第三大 IP 公司？因為<mark>任何東西一旦有了「功能（有用）」，就會迎來「夠用了」的那一刻，理性立刻回來開始算帳；唯有「無用（純粹情感與審美）」，永遠不會飽和</mark>！同一個人交水費多流 40 元會焦慮（水龍頭帳戶），給噴泉配 400 元裝飾花卻眼都不眨（噴泉帳戶）。在 AI 把所有實用功能成本壓向零的時代，<mark>別再問產品還能加什麼功能，要問：「這東西能不能讓人放棄算帳？」</mark>",
+    keyTakeaway: "功能是這類生意的「死亡開關」！不論做實體產品、餐飲點心還是數位內容，千萬別把客戶推回精打細算的「水龍頭」，要為他們創造愉悅自己、放棄計算性價比的「噴泉」！",
+    keyTakeaways: [
+      "【泡泡瑪特 vs. 隨身碟思想實驗】如果把盲盒公仔腦袋拔下來做成實用隨身碟（U盤），市值立刻崩盤！因為<mark>一旦有用，消費者就會想「我已經有好幾個隨身碟、夠用了」，理性瞬間回來開始算帳</mark>。",
+      "【勞力士 vs. 手機看時間】手機比幾十萬的勞力士還準，「看時間」的功能早就夠用了；<mark>勞力士最沒用的那個地方，恰恰是它最值錢的地方。只要沒有功能，就不存在「夠用了」，情感永遠不會飽和</mark>！",
+      "【心理帳戶：水龍頭 vs. 噴泉】同一個人、同一個錢包：<mark>面對「水龍頭（功能性水費）」多流 40 塊錢會焦慮一整天；面對「噴泉（情感湧動、取悅自己）」配一束 400 塊裝飾花卻眼睛都不眨</mark>！",
+      "【AI 時代的生死抉擇】AI 正在把所有「有用」的東西（代碼、文案、工具）成本逼近於零，變成免費自來水。<mark>未來的商業屬於能提供「無用之用（情緒價值、讓人放棄算帳的偏愛）」的人！</mark>"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc10-uselessness">
+        <h2>一、 反直覺的思想實驗：為什麼「功能」往往是高溢價生意的死亡開關？</h2>
+        <p>做個思想實驗：如果把<strong>泡泡瑪特（Pop Mart）</strong>公仔的腦袋拔下來，裡面裝一個實用的<strong>「USB 隨身碟」</strong>，你覺得它還能達到 3,800 億市值，超越萬代南夢宮、三麗鷗，成為全球第三大 IP 公司嗎？</p>
+        <p><strong>答案是：絕對不會！</strong></p>
+        <div class="callout callout-amber">
+          <div class="callout-title">💣 為什麼多了一個「有用」的功能，反而毀掉整個商業帝國？</div>
+          <p>因為一件東西只要<strong>「有用」</strong>，你用到某個點就會說一句：<strong>「夠用了！」</strong>然後停手。你會想：「我已經有好幾個隨身碟了，夠用了。」就這一句話，<mark>理性立刻回來，讓你從「對喜愛之物的失控」變成了「精打細算的算帳」！</mark></p>
+          <p>再看<strong>勞力士（Rolex）</strong>：你口袋裡的手機比幾十萬的勞力士還準，「看時間」的功能早就夠用了；但勞力士依然賣到脫銷——因為<mark>它最沒用的那個地方，恰恰是它最值錢的地方</mark>。只要不靠功能賣錢，就永遠不存在「夠用了」這三個字，人類的情感永遠不會飽和，才會買第二個、第三個、第十個！</p>
+        </div>
+
+        <h2>二、 諾貝爾經濟學「心理帳戶（Mental Accounting）」：水龍頭 vs. 噴泉</h2>
+        <p>人遠比自己以為的要感性得多。在我們心裡，錢從來不是一整筆，而是被分進不同的心理帳戶區別對待：</p>
+
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>比較維度</th>
+                <th>🚰 水龍頭帳戶（功能與實用）</th>
+                <th class="col-highlight">⛲ 噴泉帳戶（情感與取悅自己）</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>消費心理狀態</strong></td>
+                <td>精打細算、斤斤計較、比價算 CP 值。</td>
+                <td class="col-highlight"><mark>情感湧動、心甘情願、慷慨到嚇人。</mark></td>
+              </tr>
+              <tr>
+                <td><strong>真實行為表現</strong></td>
+                <td>水龍頭沒關緊多流了 <strong>40 元</strong>水費，會心痛焦慮一整天。</td>
+                <td class="col-highlight">給噴泉配一束 <strong>400 元</strong>的裝飾鮮花，眼睛都不眨一下！</td>
+              </tr>
+              <tr>
+                <td><strong>致命誤區</strong></td>
+                <td colspan="2">大多數創業者拼命給商品「加功能、強調多划算」，自以為在增加價值，其實是<mark>親手把客戶從「噴泉」推回了「水龍頭」去跟你算帳</mark>！</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout callout-emerald">
+          <div class="callout-title">🚀 AI 時代的終極商業啟示：別跟 AI 比誰的自來水便宜，去造「噴泉」！</div>
+          <p>在 AI 時代這個邏輯尤為致命：因為 AI 正在把所有「有用」的東西（程式碼、文案、生產力工具）成本無限逼近於零，全部變成免費的自來水。</p>
+          <p>如果你還在拼命堆砌功能證明自己「有用」，注定是一場死局。<mark>下次做產品或經營店務時，別再問「這東西還能加什麼功能？」，你應該問的是：「這個東西，能不能讓人放棄算帳？」</mark></p>
+        </div>
+      </div>
+    `
+  },
+  {
+    id: "self-cognition-11-ten-underlying-logics-of-learning",
+    flag: "🔟",
+    country: "學習心理學診斷表",
+    category: "self-cognition",
+    categoryLabel: "🧭 自我認知提升",
+    type: "video",
+    sentiment: "positive",
+    sentimentLabel: "🌟 10秒精準自我診斷",
+    importance: "學習必備",
+    title: "【自我認知提升 11】10 個關於學習的底層邏輯：一秒看穿「聽不懂、記不住、拖延、浮躁、反覆錯、迷茫」的真正本質！",
+    originalTitle: "10 Underlying Logics of Learning: Diagnosing the True Essence of Procrastination, Impatience, Carelessness & Confusion",
+    source: "學習心理學與正反饋實戰 (黃義順 / Reel #1009121578763831)",
+    subtitle: "為什麼有時候學東西會卡住、自暴自棄？因為沒看懂症狀背後的真正病因！收藏這張「10 大學習卡點病灶對照表」，哪裡卡住就調哪裡！",
+    createdAt: "2026-10-26",
+    readTime: "3 分鐘閱讀 + 影片",
+    difficulty: "終身學習速查表",
+    coverImage: "assets/images/reel_1009121578763831.jpg",
+    videoUrl: "assets/videos/reel_1009121578763831.mp4",
+    tags: ["自我認知提升", "學習底層邏輯", "心理學", "拖延症", "復盤", "正反饋"],
+    summary: "學習與成長中出現的所有卡點，都有明確的底層病灶：<mark>① 聽不懂＝基礎不扎實；② 記不住＝不夠理解；③ 不會做＝練習不夠多；④ 學得慢＝方法不對；⑤ 拖延＝目標不明確；⑥ 浮躁＝急於求成；⑦ 粗心＝熟練度不夠；⑧ 反覆錯＝復盤不夠；⑨ 拒學＝正回饋太少；⑩ 迷茫＝缺少規劃</mark>。精準對症下藥，就能快速前進而不內耗！",
+    keyTakeaway: "當生活中再次出現「拖延、浮躁、迷茫、反覆錯」時，不要自暴自棄，打開這張 10 大底層邏輯表對號入座，調整背後的真因就能立刻破局！",
+    keyTakeaways: [
+      "【基礎輸入四卡點（1~4）】<mark>① 聽不懂的本質 ＝ 基礎不扎實；② 記不住的本質 ＝ 不夠理解；③ 不會做的本質 ＝ 練習不夠多；④ 學得慢的本質 ＝ 方法不對</mark>。",
+      "【執行狀態四卡點（5~8）】<mark>⑤ 拖延的本質 ＝ 目標不明確；⑥ 浮躁的本質 ＝ 急於求成；⑦ 粗心的本質 ＝ 熟練度不夠；⑧ 反覆錯的本質 ＝ 復盤不夠</mark>。",
+      "【動力與方向兩卡點（9~10）】<mark>⑨ 拒學（討厭學）的本質 ＝ 正回饋太少；⑩ 迷茫的本質 ＝ 缺少規劃</mark>。"
+    ],
+    content: `
+      <div class="article-section" id="sec-sc11-ten-logics">
+        <h2>一、 10 個關於學習與成長的底層邏輯（精準診斷對照表）</h2>
+        <p>當我們在學習新技能、經營事業或自我提升時，難免會遇到卡關。只要知道<strong>「表面症狀背後真正要調整的核心是什麼」</strong>，就能快速前進，而不會卡在原地自暴自棄：</p>
+
+        <div class="table-responsive">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>編號</th>
+                <th>表面症狀（你以為的問題）</th>
+                <th class="col-highlight">底層本質（真正的病灶）</th>
+                <th>立刻可執行的破局調整法</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tag-pill pill-blue">01</span></td>
+                <td><strong>聽不懂</strong></td>
+                <td class="col-highlight"><mark>基礎不扎實</mark></td>
+                <td>退回上一階，先把基本名詞定義與前置觀念補齊，別硬啃高階內容。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-blue">02</span></td>
+                <td><strong>記不住</strong></td>
+                <td class="col-highlight"><mark>不夠理解</mark></td>
+                <td>別死背！用「費曼學習法」或「AI 寓言故事法」搞懂底層因果邏輯。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-blue">03</span></td>
+                <td><strong>不會做</strong></td>
+                <td class="col-highlight"><mark>練習不夠多</mark></td>
+                <td>看懂 ≠ 會做。立刻關掉教學影片，親手從頭實作 3 遍以上。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-blue">04</span></td>
+                <td><strong>學得慢</strong></td>
+                <td class="col-highlight"><mark>方法不對</mark></td>
+                <td>向該領域頂尖高手請教學習路徑與工具，別用低效土法煉鋼。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">05</span></td>
+                <td><strong>拖延</strong></td>
+                <td class="col-highlight"><mark>目標不明確</mark></td>
+                <td>大腦抗拒模糊的大任務。把目標拆解成「現在 5 分鐘就能動手的第一小步」。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">06</span></td>
+                <td><strong>浮躁</strong></td>
+                <td class="col-highlight"><mark>急於求成</mark></td>
+                <td>回想「非線性增長曲線」，接納前 80% 的平台期，專注每天 15 分鐘深耕。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">07</span></td>
+                <td><strong>粗心</strong></td>
+                <td class="col-highlight"><mark>熟練度不夠</mark></td>
+                <td>不要拿「我只是粗心」當藉口！粗心代表流程尚未內化成肌肉記憶與 SOP。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-amber">08</span></td>
+                <td><strong>反覆錯</strong></td>
+                <td class="col-highlight"><mark>復盤不夠</mark></td>
+                <td>建立錯題本與檢討筆記，找出每次犯錯的共同觸發點並從制度上防呆。</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-green">09</span></td>
+                <td><strong>拒學（排斥抗拒）</strong></td>
+                <td class="col-highlight"><mark>正回饋太少</mark></td>
+                <td>降低初期難度、搭配《小狗錢錢》每日 5 個成功日記，人為製造密集的小勝利！</td>
+              </tr>
+              <tr>
+                <td><span class="tag-pill pill-green">10</span></td>
+                <td><strong>迷茫</strong></td>
+                <td class="col-highlight"><mark>缺少規劃</mark></td>
+                <td>拉高視角（高度），先畫出 1 年後想要的終局成果，再倒推本季與本周路線圖。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `
+  },
   {
     id: "anthropic-felix-ai-ambition-altitude-depth-breadth",
     flag: "🚀",
