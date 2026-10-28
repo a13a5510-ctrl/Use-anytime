@@ -2481,9 +2481,15 @@
       } else if (cleanUrl.includes('youtu.be/')) {
         const vid = cleanUrl.split('youtu.be/')[1].split('?')[0];
         embedUrl = `https://www.youtube.com/embed/${vid}`;
+      } else if (cleanUrl.includes('drive.google.com/file/d/')) {
+        const fid = cleanUrl.split('drive.google.com/file/d/')[1].split('/')[0].split('?')[0];
+        embedUrl = `https://drive.google.com/file/d/${fid}/preview`;
+      } else if (cleanUrl.startsWith('gdrive:')) {
+        const fid = cleanUrl.replace('gdrive:', '').trim();
+        embedUrl = `https://drive.google.com/file/d/${fid}/preview`;
       }
       if (embedUrl) {
-        return `<div class="video-stage"><div class="video-aspect"><iframe src="${embedUrl}" allowfullscreen></iframe></div></div>`;
+        return `<div class="video-stage"><div class="video-aspect"><iframe src="${embedUrl}" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe></div></div>`;
       }
       return `<div class="video-stage"><div class="video-aspect"><video controls preload="metadata" src="${cleanUrl}"></video></div></div>`;
     }
