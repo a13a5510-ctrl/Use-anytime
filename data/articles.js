@@ -1948,6 +1948,788 @@ window.DEFAULT_ARTICLES = [
     `
   },
   {
+    id: "reel-1801563187747402",
+    title: "蘋果核哲學：自己親手挑的，就一定要吃完嗎？",
+    category: "self-cognition",
+    categoryLabel: "自我認知提升",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1801563187747402.jpg",
+    videoUrl: "https://drive.google.com/file/d/1LwHukRVvCIzc4X85ulKvYNqsf77ZI7m6/preview",
+    keyTakeaway: "承認當初看走眼並及時止損，比為了證明自己沒錯而硬撐更需要勇氣。",
+    keyTakeaways: [
+      "不要因為『當初是自己選的』，就強迫自己忍受已經腐壞的關係、工作或決定",
+      "沉沒成本已經發生，繼續投入只會擴大損失",
+      "及時止損不是失敗，而是保護未來時間與情緒價值的理性選擇"
+    ],
+    content: `
+      <p>這支短片用「挑蘋果」做了一個極具穿透力的隱喻：我們常因為某個決定是自己親手挑選的，哪怕後來發現它已經發爛、變質，還是會咬牙吞下去，只為了維持「我沒有選錯」的體面。</p>
+      <h3>核心觀念：別讓面子綁架你的人生</h3>
+      <ul>
+        <li><strong>沉沒成本謬誤：</strong> 過去投入的時間、金錢與感情已經無法回收，<mark>真正決定未來品質的，是你此刻是否願意放手</mark>。</li>
+        <li><strong>止損的勇氣：</strong> 承認自己看走眼並不丟臉，明知不對卻硬撐到底，才是對自己最大的消耗。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 行為經濟學實證：</strong> 行為經濟學家 Richard Thaler 與 Daniel Kahneman 多次證實，人類對「損失」的厭惡遠大於對「獲得」的喜悅，這使我們在面對錯誤投資或不良關係時傾向過度堅持。</p>
+        <p><strong>2. 盲點與平衡提醒：</strong> 「及時止損」適用於已經確認本質惡化（如價值觀嚴重衝突、長期內耗）的選擇；但若只是遇到<mark>短期的學習曲線陣痛或溝通磨合</mark>，切勿將「止損」當成逃避困難的藉口。建議先區分「本質壞掉」還是「暫時遇到阻力」。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2336194400489092",
+    title: "AI 遊戲開發實戰 3/3：AI 音效、配樂版權與 Steam 揭露規範",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_2336194400489092.jpg",
+    videoUrl: "https://drive.google.com/file/d/1F9R09xQZNSnpB3q-v9ean_TDDhsVIpSX/preview",
+    keyTakeaway: "獨立遊戲開發者使用 AI 音訊工具時，必須嚴格區分『商業授權條款』與『平台揭露義務』。",
+    keyTakeaways: [
+      "Suno / Udio / ElevenLabs 需購買付費商業授權方案，免費版通常不具商用權利",
+      "聲音複製（Voice Cloning）必須取得配音員明確書面授權，並留意工會（如 SAG-AFTRA）規範",
+      "上架 Steam 等平台時，須依規定如實揭露遊戲中預生成或即時生成的 AI 內容"
+    ],
+    content: `
+      <p>Arthur Chen 在 AI 遊戲開發系列第三集聚焦於「音訊與配音」。對於缺乏預算聘請作曲家與配音員的獨立開發者而言，AI 音訊大幅降低了製作門檻，但也帶來新的法務與平台上架風險。</p>
+      <h3>實戰工具與風險控管</h3>
+      <ul>
+        <li><strong>AI 配樂工具：</strong> Suno、Udio、ElevenMusic 等工具可快速生成背景音樂，但務必確認<mark>付費訂閱期間的商業授權條款</mark>，並留意部分平台對下載與分發權限的變動。</li>
+        <li><strong>音效與語音：</strong> ElevenLabs 的音效生成與語音合成效果極佳，但涉及真人聲線複製時，必須遵守授權與知情同意原則。</li>
+        <li><strong>Steam AI 揭露：</strong> Valve 明確要求開發者在提交遊戲時填寫 AI 使用聲明，誠實揭露可避免後續下架風險。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 版權現況查核：</strong> 目前美國版權局（USCO）與多數司法管轄區仍認定「純 AI 生成、缺乏人類實質創作控制」的音訊無法享有傳統著作權保護。這代表你雖能商用，但也可能無法阻止他人使用相似旋律。</p>
+        <p><strong>2. 實務建議：</strong> 將 AI 音訊作為<mark>原型測試（Prototyping）或環境墊底音效</mark>，關鍵主題曲與核心角色配音仍建議由人類創作者把關或進行深度後製混音，以確保品牌辨識度與玩家好感度。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2662651490768686",
+    title: "湯尼羅賓斯《錢：精通遊戲》：普通人致富的三大底層支柱",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_2662651490768686.jpg",
+    videoUrl: "https://drive.google.com/file/d/1IfRYfpg2rtcrjAb9BWIXNlJ-vE3zZZYR/preview",
+    keyTakeaway: "投資最大的敵人不是市場波動，而是『錯誤的金錢信念』與『被忽略的隱性手續費』。",
+    keyTakeaways: [
+      "重塑金錢藍圖：先改變對金錢的潛意識恐懼或排斥，才能留住財富",
+      "資產配置勝過選股：參考耶魯大學大衛·史文森與橋水全天候策略，做好分散與再平衡",
+      "消滅隱性費用：1%~2% 的主動基金內扣費在數十年複利下會吃掉極大比例的最終資產"
+    ],
+    content: `
+      <p>《錢：精通遊戲》（Money: Master the Game）是湯尼·羅賓斯訪談 50 位頂尖金融大師（包含達里歐、約翰·柏格等）後濃縮的理財心法。影片將其拆解為三個核心支柱：</p>
+      <h3>三大致富支柱</h3>
+      <ol>
+        <li><strong>金錢藍圖（Money Blueprint）：</strong> 如果你潛意識認為「有錢人都是貪婪的」，你就會在賺到錢後下意識揮霍掉。</li>
+        <li><strong>資產配置（Asset Allocation）：</strong> 不要把雞蛋放在同一個籃子，透過股票、債券、抗通膨資產的動態再平衡，在不確定的市場中穩健前行。</li>
+        <li><strong>消滅隱性費用：</strong> 選擇<mark>低費率的指數型基金（ETF）</mark>，避免被高額管理費與交易手續費侵蝕複利。</li>
+      </ol>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 數據查核：</strong> 約翰·柏格（Vanguard 創辦人）的經典計算顯示，若市場年化報酬為 7%，扣除 2% 費用後僅剩 5%，30 年下來最終資產會少掉超過 40%。這點完全符合數學事實。</p>
+        <p><strong>2. 盲點提醒：</strong> 書中介紹的「全天候投資組合（All Weather Portfolio）」包含較高比例的長天期美債，在<mark>高通膨與快速升息週期（如 2022 年）</mark>也曾出現股債雙殺的顯著回撤。投資人應依自身年齡與風險承受度調整股債比例，而非盲目照抄固定配方。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1830367534954372",
+    title: "Netflix 與彼得杜拉克的共識：AI 時代只雇用「成年人」",
+    category: "business",
+    categoryLabel: "商業與職場",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1830367534954372.jpg",
+    videoUrl: "https://drive.google.com/file/d/1RW6gTkM-kMzbkyXUjnzW9ykLTUkAbVcj/preview",
+    keyTakeaway: "職場上的『成年人』不是看年齡，而是看是否具備自我管理、結果導向與持續學習的能力。",
+    keyTakeaways: [
+      "高度自我管理：不需要主管盯進度，能主動拆解問題並推進交付",
+      "客觀的結果導向：不把『很努力、很辛苦』當成擋箭牌，而是用可衡量的產出說話",
+      "AI 時代的持續學習力：把工具迭代視為常態，主動升級自己的工作流"
+    ],
+    content: `
+      <p>Netflix 著名的《文化手冊》強調「我們只雇用成年人」，這與管理學大師彼得·杜拉克對知識工作者的定義不謀而合。在 AI 工具普及的今天，企業對基礎執行人力的需求大幅下降，真正稀缺的是能獨立承擔結果的人。</p>
+      <h3>職場「成年人」的三個特徵</h3>
+      <ul>
+        <li><strong>自我驅動：</strong> 遇到模糊地帶不抱怨「沒人教」，而是主動尋找資源與對齊目標。</li>
+        <li><strong>對結果負責：</strong> 區分「苦勞」與「功勞」，<mark>用客觀數據與交付品質證明價值</mark>。</li>
+        <li><strong>終身學習：</strong> 面對 AI 浪潮不恐慌也不排斥，將新工具內化為個人槓桿。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 組織行為學視角：</strong> Netflix 的「高自由與高責任」文化確實創造了極高的人均產值，但其配套是「無情的高淘汰率（Keeper Test）」，並非所有組織或員工都適合這種高壓環境。</p>
+        <p><strong>2. 平衡建議：</strong> 對個人而言，培養「成年人思維」是極佳的職涯護城河；但也要警惕部分企業只要求員工「像成年人一樣自我負責」，卻<mark>沒有給予相應的授權、資訊透明與報酬回報</mark>。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1154489002765724",
+    title: "養成深度思考的 5 個微習慣：戒掉大腦的「奶嘴資訊」",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1154489002765724.jpg",
+    videoUrl: "https://drive.google.com/file/d/1nntHREjLrouuAS1UP_tNhX5sof4uYwP9/preview",
+    keyTakeaway: "深度思考不是天賦，而是透過減少低密度刺激與建立查核防火牆訓練出來的。",
+    keyTakeaways: [
+      "思考前先深呼吸：讓大腦從情緒反應切換到前額葉的理性分析模式",
+      "減少『奶嘴資訊』：刻意降低短影音、情緒化八卦等高刺激低營養的內容攝取",
+      "三問查核防火牆：這件事是真的嗎？證據在哪？有沒有反例？",
+      "逆向與結構化思考：練習從反面推演，並用四步法梳理問題本質"
+    ],
+    content: `
+      <p>在演算法不斷投餵即時快感的時代，我們的注意力被切得支離破碎。這支影片提供了五個可落地的習慣，幫助大腦找回深度思考的能力。</p>
+      <h3>五個深度思考習慣</h3>
+      <ol>
+        <li><strong>思考前先深呼吸：</strong> 物理上降低皮質醇，避免被情緒帶偏。</li>
+        <li><strong>戒除奶嘴資訊：</strong> 意識到演算法餵養的內容是為了「留住你」，而非「提升你」。</li>
+        <li><strong>三問事實查核：</strong> 面對任何震撼結論，<mark>先問來源、問數據、問利益相關方</mark>。</li>
+        <li><strong>逆向邏輯推演：</strong> 不只看「為什麼會成功」，更看「什麼情況下會失敗」。</li>
+        <li><strong>結構化拆解：</strong> 養成動筆寫下前提、推論與結論的習慣。</li>
+      </ol>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 神經科學佐證：</strong> 認知心理學研究顯示，頻繁切換注意力（如連續刷短影音）會增加「注意力殘留（Attention Residue）」，顯著降低工作記憶容量與深層推理能力。</p>
+        <p><strong>2. 執行盲點：</strong> 單靠意志力戒除短影音通常會失敗，最有效的方法是<mark>環境設計</mark>（例如將手機放在另一個房間、設定特定時段才開啟社群 App），並用長文章或紙本書填補無聊空檔。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1023410767415369",
+    title: "馬斯克式「兩年反人性閉環」：三個讓你脫胎換骨的狠習慣",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1023410767415369.jpg",
+    videoUrl: "https://drive.google.com/file/d/1IJtcYoGIjP-wN2yk0q99KsySVXjM6nl4/preview",
+    keyTakeaway: "真正的效率來自『殘酷減法』、『把失敗當數據採集』以及『高密度的時間盒管理』。",
+    keyTakeaways: [
+      "殘酷減法（白癡指數）：砍掉所有不產生核心價值的流程、社交與偽努力",
+      "高頻試錯採集數據：把每一次失敗都當成低成本的實驗數據，快速迭代",
+      "五分鐘時間盒（Timeboxing）：用極細顆粒度的行事曆取代無止盡的待辦清單"
+    ],
+    content: `
+      <p>影片總結了馬斯克（Elon Musk）在打造 SpaceX 與 Tesla 時展現的三個反人性習慣，並主張只要持續執行兩年閉環，就能拉開與同齡人的巨大差距。</p>
+      <h3>三個反人性習慣</h3>
+      <ul>
+        <li><strong>殘酷減法：</strong> 借鏡馬斯克的「白癡指數（Idiot Index）」與五步工作法——先質疑需求、再刪除多餘步驟，最後才談優化與加速。</li>
+        <li><strong>把試錯當採集數據：</strong> 不把失敗當成自我否定，而是<mark>用最快的速度收集「此路不通」的證據</mark>。</li>
+        <li><strong>時間盒管理：</strong> 拒絕漫無目的的忙碌，將重要任務鎖進具體的時間區塊。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 來源查核：</strong> 「白癡指數」與「五步工程法」確實出自 Walter Isaacson 所著《馬斯克傳》；至於「五分鐘時間盒」，馬斯克本人曾在訪談中澄清那主要是媒體誇飾，他實際上是按任務優先級分配區塊。</p>
+        <p><strong>2. 身心警訊：</strong> 一般人若盲目複製矽谷極端工作狂的「5 分鐘時間盒」，極易導致<mark>慢性過勞與決策疲勞</mark>。建議保留「時間盒」的核心精神（為重要任務保留專注時段），但將顆粒度放寬至 30~60 分鐘，並預留緩衝時間。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2115786612631511",
+    title: "從底層爬起來的九層覺醒：捨棄面子、武器化情緒與自我產品化",
+    category: "self-cognition",
+    categoryLabel: "自我認知提升",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_2115786612631511.jpg",
+    videoUrl: "https://drive.google.com/file/d/14yE_TQBlbqbGi4jCf6bBF0eR0MIL0eTP/preview",
+    keyTakeaway: "翻身不是靠一時的熱血，而是從『極端自我負責』到『把能力資產化』的九層系統升級。",
+    keyTakeaways: [
+      "前四層（破局）：停止怪罪環境、徹底捨棄無用的面子、把憤怒與不甘轉化為行動燃料、果斷切斷消耗型關係",
+      "中三層（重塑）：主動升級社交圈層、提升對變化的適應力、將自身技能『產品化』",
+      "後兩層（複利）：建立可滾雪球的資產，並透過每日復盤持續校準方向"
+    ],
+    content: `
+      <p>這支影片將個人逆襲拆解為九個層級，核心主軸非常明確：在資源匱乏時，最大的阻力往往不是外部環境，而是內部的虛榮心與無效內耗。</p>
+      <h3>九層覺醒關鍵節點</h3>
+      <ul>
+        <li><strong>捨棄面子：</strong> 面子是窮人最貴的奢侈品，<mark>能用臉皮換來經驗與機會時，千萬別猶豫</mark>。</li>
+        <li><strong>情緒武器化：</strong> 不要壓抑委屈或不甘，把它轉化成熬夜打磨技能、拜訪客戶的驅動力。</li>
+        <li><strong>自我產品化：</strong> 打工只是零售時間，把經驗封裝成可複製的服務或內容，才能實現槓桿。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 觀點肯定：</strong> 「自我負責」與「技能產品化（Productize Yourself，Naval Ravikant 名言）」是現代個人成長與職涯躍遷極具實證價值的原則。</p>
+        <p><strong>2. 盲點提醒：</strong> 影片語氣較為激進，容易讓人誤以為「只要夠狠、夠拚就一定能翻身」，忽略了<mark>結構性運氣、家庭安全網與身心健康底線</mark>。在「武器化情緒」時，務必留意長期憤怒與焦慮對心血管及心理健康的反噬，適時將動力轉為更平穩的長期主義。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1426301589700305",
+    title: "巴菲特 5/25 法則與賈伯斯的減法：用半年極致專注追上五年差距",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1426301589700305.jpg",
+    videoUrl: "https://drive.google.com/file/d/1UQy1c8Smfkim1gzU55EgVH3RVYvt5dk5/preview",
+    keyTakeaway: "平庸與卓越的差別，不在於你做了多少事，而在於你敢不敢把第 6 到第 25 件事徹底列入『絕對不做清單』。",
+    keyTakeaways: [
+      "巴菲特 5/25 法則：寫下 25 個目標，只選前 5 個全力以赴，其餘 20 個不是『有空再做』，而是『絕對不做』",
+      "賈伯斯回歸蘋果砍掉 70% 產品線：專注才能讓有限資源產生穿透力",
+      "每天 4 小時無干擾深度工作（Deep Work），足以在半年內產生質變"
+    ],
+    content: `
+      <p>許多人同時想學英文、想做副業、想健身、想讀 50 本書，結果一年過去什麼都沒做成。影片引用巴菲特著名的「5/25 法則」與賈伯斯重整蘋果的案例，指出分散精力才是進步的最大殺手。</p>
+      <h3>極致專注的執行架構</h3>
+      <ul>
+        <li><strong>建立「絕對不做清單」：</strong> 第 6 到第 20 名的目標最危險，因為它們看起來「還不錯」，會不斷偷走你前 5 名目標的時間。</li>
+        <li><strong>每日 4 小時深度工作：</strong> 關掉通知、隔離雜訊，<mark>把每天精力最好的 4 小時留給唯一的核心目標</mark>。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 典故查核：</strong> 「巴菲特 5/25 法則」最早流傳自其私人飛機師 Mike Flint 的故事，雖巴菲特本人未曾正式背書該細節，但「機會成本」與「專注能力圈」確實是他投資哲學的核心；賈伯斯 1997 年回歸蘋果時，也確實將產品線從數十款大幅精簡為四象限（消費/專業 × 桌機/筆電）。</p>
+        <p><strong>2. 現實提醒：</strong> 「半年追上五年」屬於勵志修辭，實際進展仍受限於行業門檻與累積週期，但<mark>單點突破確實比多線平庸更容易建立正向反饋</mark>。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2002636340415817",
+    title: "腎臟的自白「我是你的腎」：五大傷腎習慣與四個護腎日常",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_2002636340415817.jpg",
+    videoUrl: "https://drive.google.com/file/d/1cRvzVajWr3Z98rddBEI5eLsjTAiYCx6K/preview",
+    keyTakeaway: "腎臟是沉默的器官，沒有痛覺神經，日常的熬夜、高鹽、憋尿與含糖飲料正在透支不可再生的腎單位。",
+    keyTakeaways: [
+      "五大傷腎地雷：長期飲水不足、含糖飲料與過量咖啡因、熬夜滑手機導致血壓升高、高鹽重口味、習慣性憋尿",
+      "四個護腎日常：每日補充足夠溫開水（約 1500ml+，視體重調整）、低鹽飲食、及時排尿、規律早睡",
+      "腎單位（Nephron）一旦受損幾乎不可逆，預防遠勝於治療"
+    ],
+    content: `
+      <p>這支影片以第一人稱「我是你的腎」生動科普了腎臟的運作機制：每個人約有 200 萬個腎單位，每天默默過濾血液、排出代謝廢物，但因為缺乏痛覺神經，等到出現明顯不適時往往已損失過半功能。</p>
+      <h3>日常護腎行動清單</h3>
+      <ul>
+        <li><strong>補水取代飲料：</strong> 白開水是最好的過濾媒介，減少果糖與磷酸鹽對腎絲球的負擔。</li>
+        <li><strong>控鹽與控血壓：</strong> 高鈉飲食與熬夜會讓腎絲球長期處於高壓灌注狀態，加速硬化。</li>
+        <li><strong>絕不憋尿：</strong> 避免尿液逆流引發泌尿道感染進而波及腎臟。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 醫學實證查核：</strong> 影片內容整體符合腎臟科衛教共識。不過「每日 1500ml 飲水」是基礎參考值，一般健康成人建議為「體重(kg) × 30ml」（約 1800~2400ml），而<mark>已有慢性腎臟病或心衰竭患者</mark>則須遵照醫囑限水，不可一概而論。</p>
+        <p><strong>2. 補充提醒：</strong> 除了飲食與作息，<mark>來路不明的止痛藥（NSAIDs）與偏方草藥</mark>也是台灣與亞洲地區常見的急性傷腎元兇，務必謹慎。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1815233892954514",
+    title: "AI 遊戲開發實戰 2/3：AI 美術與 3D 生成工具、版權判例與產業現況",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1815233892954514.jpg",
+    videoUrl: "https://drive.google.com/file/d/1K6kw_QpB1ROkHy4f2x0ihG_33KMn0_Xp/preview",
+    keyTakeaway: "AI 已能大幅加速 2D 概念圖與 3D 模型原型製作，但純 AI 產物目前缺乏著作權保護，商業專案仍需人類深度整合。",
+    keyTakeaways: [
+      "2D 美術工作流：Midjourney / GPT Image / Flux（本地部署）/ Scenario（風格一致性訓練）",
+      "3D 生成工具：Meshy、Tripo、Rodin、Hunyuan 3D 等已可產出可用於原型的網格與貼圖",
+      "法務與產業現況：美國法院 Thaler 案重申『人類作者身分』是版權前提；GDC 調查顯示仍有高比例美術從業者對 AI 抱持保留或反感態度"
+    ],
+    content: `
+      <p>Arthur Chen 在 AI 遊戲開發系列第二集盤點了 2D 與 3D 美術的 AI 工具鏈，並客觀分析其商業落地的限制。</p>
+      <h3>工具鏈與合規重點</h3>
+      <ul>
+        <li><strong>2D 與風格控制：</strong> 除了 Midjourney 與 GPT Image，若重視隱私與客製化，可透過本地部署 Flux 或使用 Scenario 訓練專屬畫風模型。</li>
+        <li><strong>3D 模型生成：</strong> Meshy、Tripo、Rodin 與騰訊混元 3D（Hunyuan 3D）大幅縮短了白模與道具製作時間。</li>
+        <li><strong>版權與玩家觀感：</strong> 純提示詞生成的圖片在美國難以取得版權保護，且部分核心玩家對未經修飾的「AI 味」貼圖相當反感。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 事實查核：</strong> 美國哥倫比亞特區聯邦地區法院及上訴法院在 <em>Thaler v. Perlmutter</em> 案中確實維持了「人類作者身分（Human Authorship）為著作權必要條件」的裁決。GDC（遊戲開發者大會）年度產業報告也多次指出，藝術與敘事部門對生成式 AI 的抵觸情緒明顯高於程式與商業部門。</p>
+        <p><strong>2. 實務建議：</strong> 最穩健的做法是將 AI 用於<mark>前期概念發想（Concept Art）、UI 佔位圖與重複性背景物件</mark>，再由人類美術進行重繪（Paint-over）與拓撲優化。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1435598698710396",
+    title: "日式料理視覺韻律：極簡刀工與火候的專注美學",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "1 分鐘",
+    coverImage: "assets/images/reel_1435598698710396.jpg",
+    videoUrl: "https://drive.google.com/file/d/1xyJ1lNhF8W3VALCTZrrWOQrW2y5u2zHF/preview",
+    keyTakeaway: "純粹的動作與節奏感本身就是一種療癒，料理的本質在於對食材與當下的專注。",
+    keyTakeaways: [
+      "這是一支無旁白、以輕快背景音樂搭配的日式料理示範短片",
+      "展現了備料、刀工處理與擺盤的流暢節奏，適合作為日常烹飪靈感與視覺舒壓"
+    ],
+    content: `
+      <p>本影片為純視覺與音樂節奏呈現的日式料理製作過程，沒有口語教學或文字說教，單純透過俐落的備料、烹調與成品畫面，傳遞對食材與手藝的專注感。</p>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 內容性質說明：</strong> 經音訊分析，本片僅含背景音樂而無語音解說，屬於飲食美學與舒壓類（ASMR / Visual Cooking）短片。</p>
+        <p><strong>2. 延伸觀察：</strong> 這類短片之所以受歡迎，是因為它提供了低認知負荷的感官愉悅；若想真正復刻菜色，建議仍需另外查詢具體的調味料比例與火候時間。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1654673199593882",
+    title: "普通人必建的三大複利系統：能力、財富與習慣的指數曲線",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1654673199593882.jpg",
+    videoUrl: "https://drive.google.com/file/d/1WrRg7etyF2Gv4tPX1HmDSZ-E4C3InCC2/preview",
+    keyTakeaway: "複利不只是金融數學，更是將『時間』變成盟友的三套底層系統。",
+    keyTakeaways: [
+      "能力複利：深耕可遷移的核心技能，讓每一次專案經驗都成為下一次的起跳板",
+      "財富複利：把主動收入轉化為生息資產，讓錢在睡覺時繼續工作",
+      "習慣複利：每天微小的正向選擇（閱讀、運動、早睡），在數年後拉開巨大差距"
+    ],
+    content: `
+      <p>許多人一生都在做「單利」的事情——用一小時換一小時的工資，停下來就歸零。影片指出，普通人要實現階級或生活品質的躍遷，必須同時啟動三套複利系統：</p>
+      <ul>
+        <li><strong>能力複利：</strong> 不斷把零散的經驗結構化、沉澱成方法論。</li>
+        <li><strong>財富複利：</strong> 盡早建立「儲蓄 → 投資生息資產」的自動化管道。</li>
+        <li><strong>習慣複利：</strong> 利用微小但穩定的日常習慣，降低對意志力的消耗。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 數學與現實的落差：</strong> 複利曲線在前期（前 3~5 年）幾乎是平緩的，這也是多數人中途放棄的原因——我們總高估一年能做的事，卻低估十年能累積的成果。</p>
+        <p><strong>2. 關鍵提醒：</strong> 複利也有「負向複利」（如長期熬夜、債務利息、不良習慣）。此外，在個人資本極小時，投資自己提升「能力複利」的報酬率，往往遠高於在股市裡斤斤計較幾個百分點。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1681677993680533",
+    title: "視覺化拆解 Transformer 與 ChatGPT：從 Token 到 Self-Attention",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1681677993680533.jpg",
+    videoUrl: "https://drive.google.com/file/d/1zdTba5A0kg-S6N_wswZ_dOgUsx2NRpdY/preview",
+    keyTakeaway: "大語言模型不是在『背誦答案』，而是透過注意力機制計算每個詞彙在上下文中的關聯權重，進而預測下一個最合理的 Token。",
+    keyTakeaways: [
+      "Token 與 Embedding：文字先被切分成 Token，再轉換成高維空間中的數字向量（語意座標）",
+      "Query / Key / Value 與 Attention：模型計算詞與詞之間的相關性分數，動態調整上下文語意（例如分辨『蘋果手機』與『吃蘋果』）",
+      "Transformer Block 與 RLHF：透過多層堆疊與人類回饋強化學習（RLHF），讓模型學會遵循指令並安全對話"
+    ],
+    content: `
+      <p>這支影片用極為直覺的動畫流程，把現代 AI 的心臟——Transformer 架構與 ChatGPT 的運作原理講得清清楚楚：</p>
+      <h3>大語言模型的運作流程</h3>
+      <ol>
+        <li><strong>分詞與向量化（Token → Embedding）：</strong> 電腦看不懂文字，只能把文字轉成帶有語意特徵的數字向量。</li>
+        <li><strong>自注意力機制（Self-Attention）：</strong> 每個詞會發出 Query，去跟句子裡其他詞的 Key 比對，算出注意力權重（Attention Scores），再加權融合 Value，得出精準的上下文語意。</li>
+        <li><strong>預訓練與對齊（Pre-training + RLHF）：</strong> 先透過海量文本學會「接龍預測下一個詞」，再透過人類回饋強化學習（RLHF）學會像人類一樣有禮貌且切題地回答問題。</li>
+      </ol>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 技術準確度查核：</strong> 影片對 Transformer（Vaswani et al., 2017）與 ChatGPT 訓練流程的科普高度準確，成功避開了過度擬人化的誤導。</p>
+        <p><strong>2. 使用者啟示：</strong> 理解「模型本質是機率預測」後，就能明白為何 AI 會產生<mark>幻覺（Hallucination）</mark>——它只是在生成「統計上最像正確答案的文字」。因此，重要事實與數據務必搭配外部檢索（RAG）或人工查核。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1131387126445506",
+    title: "世界的「合法作弊」指南：用規則與槓桿取代蠻力的 10 個系統思維",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "5 分鐘",
+    coverImage: "assets/images/reel_1131387126445506.jpg",
+    videoUrl: "https://drive.google.com/file/d/1krA3ueP9nf30GHyi4PdwjLdzXceLF-s7/preview",
+    keyTakeaway: "大多數人用戰術上的勤奮掩蓋戰略上的懶惰；真正的『作弊』是看懂遊戲規則，用系統與逆向工程取代重複造輪子。",
+    keyTakeaways: [
+      "學習作弊：從結果倒推（逆向工程），直接拆解頂尖高手的方法論，不要從頭摸索",
+      "職場與社交作弊：把功勞可視化、定期向決策者同步進度；用系統化維護人脈而非靠感覺",
+      "決策與資訊作弊：主動篩選高密度資訊源取代演算法投餵；用三個核心問題快速打破偽糾結"
+    ],
+    content: `
+      <p>這支影片一口氣拆解了十個領域（社交、學習、職場、時間、財富、資訊、決策、健康、情緒、認知）的「高效率捷徑」，核心思想是：<mark>世界獎勵懂規則的人，而不是只會埋頭苦幹的人</mark>。</p>
+      <h3>精選實戰技巧</h3>
+      <ul>
+        <li><strong>逆向工程學習法：</strong> 先找該領域做得最好的人，拆解他的框架並照著做，省下三個月自己摸索的時間。</li>
+        <li><strong>被看見的價值：</strong> 埋頭苦幹三年，不如一次清晰的階段性總結與價值呈現。</li>
+        <li><strong>決策三問：</strong> 這件事長期有利嗎？現在不做會後悔嗎？最壞結果能承受嗎？答完即刻行動。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 觀點價值：</strong> 「逆向工程」、「資訊過載比匱乏更可怕」、「系統大於意志力」都是極為務實的現代生存法則。</p>
+        <p><strong>2. 潛在風險提醒：</strong> 影片把這些方法包裝成「作弊」，容易讓人誤以為可以完全跳過基礎累積。事實上，<mark>逆向工程的前提是你有足夠的基礎識別力</mark>，否則很容易只學到高手的表面招式而忽略背後的資源條件。捷徑是建立在基本功之上的槓桿。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1087113860809282",
+    title: "本金只有一萬元，如何實現財富自由？人力資本與 FIRE 三階段路徑",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "6 分鐘",
+    coverImage: "assets/images/reel_1087113860809282.jpg",
+    videoUrl: "https://drive.google.com/file/d/1xpcKNevUKFoA85-Cg3ZAV20bbomBbYDr/preview",
+    keyTakeaway: "本金只有一萬元時，別急著研究 K 線與基金；你身上的人力資本才是最大的資產，先把一萬塊拿去投資技能與副業。",
+    keyTakeaways: [
+      "數學現實：1 萬元就算年化 15% 連續 40 年也才 267 萬，小本金時期靠理財無法致富",
+      "第一階段（1萬→10萬）：全力投資人力資本（學高薪技能、啟動副業）並強制儲蓄 20%+",
+      "第二階段（10萬→100萬）：雙輪驅動，尋找管理/產品/內容槓桿放大單位時間價值，同時定投寬基指數",
+      "第三階段（100萬以上）：複利進入加速期，重心轉向股債配置、降低費率與稅務優化"
+    ],
+    content: `
+      <p>這是一支極度清醒且具數學實證的理財科普。針對「本金只有一萬元怎麼財務自由」，作者直接用複利公式潑了一盆冷水，並給出了從 1 萬到 FIRE（財務獨立、提早退休，年支出 × 25 倍）的三階段路線圖。</p>
+      <h3>三階段財富自由路線圖</h3>
+      <ul>
+        <li><strong>第一階段（1萬 → 10萬）：</strong> 拒絕本末倒置！不要花幾小時盯盤只為了多賺幾百塊，把時間拿去提升本職不可替代性或開啟副業。</li>
+        <li><strong>第二階段（10萬 → 100萬）：</strong> 建立「主動收入＋被動定投」雙輪驅動，嘗試透過帶團隊、做產品或做內容取得槓桿。</li>
+        <li><strong>第三階段（100萬+）：</strong> 當投資收益開始追上你的年儲蓄額時，才真正進入「錢生錢」的複利加速期。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 數據查核：</strong> 影片引用的「4% 法則」（William Bengen, 1994）、標普 500 長期名義年化約 10%（扣除通膨約 7%）、以及超過 80% 主動基金長期跑輸大盤（SPIVA 報告），皆為金融學界公認的實證數據。</p>
+        <p><strong>2. 補充提醒：</strong> 影片以「不間斷工作與儲蓄 20 年」為理想模型，現實中還需考量<mark>結婚生子、父母醫療或突發失業等大額支出</mark>，因此第一階段保留 6 個月緊急預備金至關重要。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1136035472154640",
+    title: "30 歲後的 12 條高密度生存法則：從極致模仿到建立個人系統",
+    category: "self-cognition",
+    categoryLabel: "自我認知提升",
+    date: "2026-11-14",
+    readTime: "5 分鐘",
+    coverImage: "assets/images/reel_1136035472154640.jpg",
+    videoUrl: "https://drive.google.com/file/d/10wgNFcaTZrQAVJ3zh1mdfiWuSDt9y-OA/preview",
+    keyTakeaway: "30 歲後拼的不再是單純的體力，而是『注意力保護』、『結果說話』、『建立系統』以及『只篩選不改變』的清醒。",
+    keyTakeaways: [
+      "注意力比時間更貴：保護好每天晚上無干擾的 2~3 小時，決定了你的生命濃度",
+      "先極致模仿，再談做自己：找到領域頂尖者忘掉自我地模仿，從形似到神似",
+      "建立系統而非靠意志力：意志力像手機電池會耗盡，固定作息與自動化習慣才能長久",
+      "只篩選不改變：放下助人情結，遠離消耗你的人，把精力留給同頻者"
+    ],
+    content: `
+      <p>作者將過去兩年十萬字筆記濃縮成 12 條給 30 歲左右人群的行動準則，涵蓋了思維、健康、社交與執行力：</p>
+      <h3>核心準則摘要</h3>
+      <ul>
+        <li><strong>用結果說話：</strong> 抱怨是世界最沒用的東西，把委屈憋成生產力。</li>
+        <li><strong>利他是最高級的利己：</strong> 滿足他人需求、真誠創造價值，世界會加倍回饋。</li>
+        <li><strong>小步測試、快速迭代：</strong> 犯錯不可怕，可怕的是在錯的方向走太遠；世界只記得你最好的成績。</li>
+        <li><strong>狀態管理大於時間管理：</strong> 把最難的事放在精力最好的時段做，主動找點不舒服的事（如運動、早起）鍛鍊情緒肌肉。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 心理學一致性：</strong> 「意志力有限（Ego Depletion 概念雖有爭議，但環境設計優於自制力已被行為科學證實）」與「模糊目標導致拖延（Implementation Intentions 研究）」皆有堅實的心理學基礎。</p>
+        <p><strong>2. 平衡視角：</strong> 「遇到不公先忍著、用結果說話」在短期職場博弈有效，但若遇到<mark>職場霸凌、違法壓榨或人身安全問題</mark>，絕不能一味忍耐，該留存證據與尋求法律／體制救濟時必須果斷發聲。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1026165733829133",
+    title: "讓人極不舒服的 10 種低情商行為：高情商不是圓滑，而是分寸感",
+    category: "self-cognition",
+    categoryLabel: "自我認知提升",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1026165733829133.jpg",
+    videoUrl: "https://drive.google.com/file/d/1uJQR0AhBRHtJKd7CbzPnLqeiZZFcMoi7/preview",
+    keyTakeaway: "低情商往往不是智商問題，而是『意識盲區』——你在不知不覺中透支了別人對你的好感與耐心。",
+    keyTakeaways: [
+      "溝通地雷：打斷別人說話、永遠用『可是』抬槓、把聚會當成單方面傾倒負能量的垃圾桶",
+      "邊界地雷：把玩笑開在別人痛點上、當眾揭人短處或私隱、當著外人面教訓自己人",
+      "信用地雷：習慣性遲到、炫耀式關心、做錯事從不道歉、只會索取不懂回饋"
+    ],
+    content: `
+      <p>為什麼有些人明明沒幹什麼壞事，大家卻總想躲著他？這支影片列舉了 10 種最常見、卻往往被當事人誤以為「只是直爽／開玩笑」的低情商行為。</p>
+      <h3>自我檢視清單</h3>
+      <ul>
+        <li><strong>把聊天變成辯論賽：</strong> 習慣性反駁別人，讓人覺得跟你說話很累。</li>
+        <li><strong>透支他人的耐心：</strong> 每次見面都在抱怨公司與同事，把朋友當成免費情緒垃圾桶。</li>
+        <li><strong>缺乏邊界感：</strong> 拿別人的外貌、家境或過往失敗開玩笑，還反怪對方「玻璃心」。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 情商（EQ）定義查核：</strong> 心理學家 Daniel Goleman 指出，情商包含「自我覺察、自我管理、社會覺察（同理心）與人際關係管理」。這 10 點精準對應了「缺乏自我覺察與同理心」的日常表現。</p>
+        <p><strong>2. 雙向提醒：</strong> 練習高情商是為了讓彼此相處舒服，但也要避免走向另一個極端——變成<mark>過度討好型人格（People Pleaser）</mark>。遇到真正惡意冒犯自己的人，依然要保有堅定說「不」的底線。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1379242084093945",
+    title: "如何養成深度思考的習慣：黃金圈、5 Why 法則與寫作刻意練習",
+    category: "growth",
+    categoryLabel: "個人成長",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1379242084093945.jpg",
+    videoUrl: "https://drive.google.com/file/d/1FwvrzQitJhL8eSX0zEmKyTXfmnA6633V/preview",
+    keyTakeaway: "深度思考是可以透過『多問為什麼』、『保持專注』與『輸出寫作』刻意練習出來的思維習慣。",
+    keyTakeaways: [
+      "打破固定型思維：別給自己貼上『我不聰明』的標籤，思考力就像寫作一樣可以練習",
+      "黃金圈法則（What → How → Why）與豐田 5 Why 法則：層層追問，不輕易滿足於表面歸因",
+      "建立思維主見與每日自省：拒絕人云亦云，並透過高強度腦力活動（閱讀＋寫作）倒逼自己深度思考"
+    ],
+    content: `
+      <p>這支影片系統性地回答了「為什麼我們知道要深度思考，卻總是做不到」，並給出五個可執行的訓練步驟：</p>
+      <h3>五步訓練法</h3>
+      <ol>
+        <li><strong>多問為什麼：</strong> 運用西蒙·斯涅克的黃金圈與豐田大野耐一的「5 Why 法則」，像傑斐遜紀念館外牆斑駁的經典案例一樣，追問到最底層的根本原因。</li>
+        <li><strong>建立主見：</strong> 遇到熱點事件先緩一緩，不急著下結論或跟風站隊。</li>
+        <li><strong>保持絕對專注：</strong> 深度思考屬於舒適區外的刻意練習，必須在自己精力最好的時段、無干擾地進行。</li>
+        <li><strong>每日自省：</strong> 透過復盤失敗與不足，形成正向反饋迴圈。</li>
+        <li><strong>大量閱讀與寫作：</strong> 寫作是最費腦子的事，能強迫你把模糊的念頭梳理成嚴密的邏輯架構。</li>
+      </ol>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 案例查核：</strong> 「傑斐遜紀念館外牆斑駁（清潔劑 → 鳥糞 → 蟲子 → 燈光／窗戶）」是管理學界流傳極廣的 5 Why 教學案例，雖部分細節在歷史考據上有不同版本，但作為「區分表面症狀與根本原因（Root Cause）」的教學模型非常有效。</p>
+        <p><strong>2. 實作建議：</strong> 剛開始練習寫作時，不必追求長篇大論，每天針對一個小問題寫下 200 字的「現象 → 原因 → 行動」卡片筆記，就能有效啟動思維鍛鍊。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2562739280856651",
+    title: "免年費里程信用卡入門實戰：三張卡搞定日常消費換機票",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_2562739280856651.jpg",
+    videoUrl: "https://drive.google.com/file/d/10hGKvG78sJHRUdtdd0lAX0aOQsYcNgf5/preview",
+    keyTakeaway: "新手玩里程不需要一開始就辦高額年費卡；把日常食衣住行集中刷這三張免年費卡，一兩年就能換到免費機票或住宿。",
+    keyTakeaways: [
+      "匯豐旅人輕旅卡：無腦刷首選，綁定 LINE Pay 或街口支付涵蓋日常雜支",
+      "國泰世華 CUBE 卡：建議固定在『最常消費的權益』（如網購或超商），出國時再切換『趣旅行』拿 3% 回饋",
+      "匯豐 Live+ 卡：專攻吃飯與百貨公司消費，補足餐飲回饋"
+    ],
+    content: `
+      <p>許多人對「刷卡換機票」有興趣，卻被動輒上萬元年費的高階卡勸退。這支影片示範了台灣市場最親民的「三卡免年費組合」，假設年消費約 30 萬元（含水電、保險、網購、朋友聚餐代墊），兩年約可累積 2 萬點左右，足夠兌換單晚住宿或短程機票。</p>
+      <h3>新手入門心法</h3>
+      <ul>
+        <li><strong>先玩出興趣再進階：</strong> 先用免年費卡換到人生第一張免費機票，確認自己真的喜歡且用得到，再考慮是否升級年費卡（拿貴賓室、機場接送）。</li>
+        <li><strong>懶人原則：</strong> 沒有最好的里程計畫，只有最適合自己消費習慣的組合。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 時效性查核（重要）：</strong> 台灣信用卡權益與回饋比例（特別是 CUBE 卡切換規則、Live+ 通路認定與匯豐點數兌換比例）<strong>變動極快</strong>，通常每半年至一年就會調整一次，申辦前務必至銀行官網確認最新公告。</p>
+        <p><strong>2. 財務提醒：</strong> 里程遊戲的前提是「原本就要花的錢」且「每月全額繳清卡費」。千萬不要為了湊里程而過度消費，更不可動用循環利息。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1066560315821821",
+    title: "里程玩家實戰示範：點數換星宇商務艙與海外飯店折抵攻略",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1066560315821821.jpg",
+    videoUrl: "https://drive.google.com/file/d/1-nBlz71j2cDLgPX3Q7yJ3TlOV7f91pm4/preview",
+    keyTakeaway: "高階里程玩家的精髓在於『錯開大眾熱門路線』，並善用外國航空計畫與聯名卡飯店退額，以極低現金成本享受商務艙與五星級飯店。",
+    keyTakeaways: [
+      "去程：使用阿拉斯加航空（Alaska Airlines）點數兌換星宇航空台北飛清邁商務艙，單人僅需 15,000 點＋稅金",
+      "住宿：善用美國運通（Amex）THC/FHR 折抵 300 美元＋館內 100 美元消費額度，以及希爾頓 Surpass 聯名卡每季 50 美元退額",
+      "回程：使用加拿大航空（Aeroplan）點數兌換同聯盟泰國航空曼谷飛高雄商務艙（30,000 點）"
+    ],
+    content: `
+      <p>這支影片完整拆解了一趟「台灣 ↔ 泰國（清邁＋曼谷）」的進階里程實戰，展示了如何把不同航空聯盟的點數與美卡飯店福利串聯起來，實現「看起來花大錢、實際只付極少現金」的旅行體驗。</p>
+      <h3>實戰亮點</h3>
+      <ul>
+        <li><strong>錯位競爭：</strong> 避開台灣人最愛搶的日本線，選擇東南亞航線與冷門但高 CP 值的外航計畫（如阿拉斯加航空、加航），大幅提高商務艙換票成功率。</li>
+        <li><strong>飯店福利疊加：</strong> 透過 Amex 訂房計畫取得免費早餐、延遲退房與館內消費金，再用備註慶祝紀念日爭取額外驚喜。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 門檻查核：</strong> 影片中提到的 <strong>Hilton Surpass 信用卡與部分高階 Amex 退額福利屬於「美國信用卡（美卡）」</strong>，並非台灣本地銀行卡片；一般台灣民眾若無美國信用紀錄（SSN/ITIN），取得門檻較高。</p>
+        <p><strong>2. 動態貶值風險：</strong> 航空里程（如阿拉斯加航空）近年也陸續調整兌換表，且高階年費卡若未充分使用其權益，實際上仍是「預付年費換福利」。建議將此視為「進階興趣研究」，量力而為。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1885779775932344",
+    title: "SpaceX AI 工程負責人 Lauren Tan 的 7 條 AI 團隊協作心法",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1885779775932344.jpg",
+    videoUrl: "https://drive.google.com/file/d/1w9pV1I0W4oGcBlr5UPlQ_UflaSIq8L1z/preview",
+    keyTakeaway: "AI 是一個能力極強但剛入職 5 秒的實習生；不會寫程式的人也能透過『讓 AI 造 AI』、『保存 Skill』與『語音輸入』駕馭 AI 團隊。",
+    keyTakeaways: [
+      "讓 AI 造 AI：先建一個『總管智能體』，由它幫你設計、監督與調整其他職責清晰的 AI",
+      "在精不在多：幾個調教好的專精智能體，遠勝過十幾個半吊子的機器人",
+      "做對一次就存成 Skill：把成功的工作流封裝成操作手冊，下次一鍵複用",
+      "消滅複製貼上＆開語音輸入：一口氣把背景、細節與需求說清楚，並讓 AI 用自己的話複述確認"
+    ],
+    content: `
+      <p>金融背景出身、原本完全不會寫程式的 Lauren Tan，因極致駕馭 AI 工具而被馬斯克延攬擔任 SpaceX AI 相關工程負責人。她公開的 7 條 AI 協作方法在 X 上獲得超過 120 萬次關注，非常適合非技術背景的普通人直接照抄：</p>
+      <h3>7 條實戰心法</h3>
+      <ol>
+        <li><strong>讓 AI 造 AI：</strong> 用總管 Agent 盤點你的痛點並生成子 Agent。</li>
+        <li><strong>精簡 Agent 數量：</strong> 避免一次建太多而疏於調教。</li>
+        <li><strong>沉澱為 Skill：</strong> 每次教會 AI 一件事，就命令它「把剛才的方法存成技能手冊」。</li>
+        <li><strong>配專屬信箱與帳號：</strong> 將 AI 的工作環境與個人環境隔離，出錯好控管。</li>
+        <li><strong>消滅人工複製貼上：</strong> 只要發現自己在手動搬運資訊，就反問 AI「這一步怎麼自動化」。</li>
+        <li><strong>把 AI 當新入職實習生：</strong> 先給足背景脈絡（我是誰、做什麼），再問它「我們從哪開始合作」。</li>
+        <li><strong>用語音輸入交代任務：</strong> 打字容易省字導致資訊不足，開口說能提供最豐富的上下文。</li>
+      </ol>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 實戰價值：</strong> 這套方法與目前業界最主流的 Agentic Workflow（如 MCP、Skills、Prompt Engineering）完全吻合，「沉澱 Skill」與「語音高密度輸入」更是立即可用的效率倍增器。</p>
+        <p><strong>2. 安全邊界提醒：</strong> 第 4 條「讓 AI 獨立註冊帳號與收發郵件」在企業或個人資安上存在<mark>權限失控與 Prompt Injection（提示詞注入攻擊）風險</mark>。建議僅在沙盒環境或低風險任務中授權，涉及金流、機密資料與對外正式發信時，仍須保留「人類最終確認（Human-in-the-loop）」。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1659655589163127",
+    title: "12 種電影感運鏡語言拆解：拍之前先說清楚鏡頭怎麼走",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1659655589163127.jpg",
+    videoUrl: "https://drive.google.com/file/d/18KlvoDgXLDD7Vef75o8N2u18cKaPCNe8/preview",
+    keyTakeaway: "所謂『電影感』不是玄學，而是透過精準的鏡頭運動（推、拉、搖、移、變焦）來引導觀眾的情緒與視線。",
+    keyTakeaways: [
+      "基礎敘事：推進（加重緊張感）、拉遠（揭開環境全貌）、橫搖與上搖（層層揭開人物）",
+      "節奏轉換：甩鏡（快速切換看點）、急推／急拉變焦（機位不動但細節放大或反轉現身）",
+      "動態與視覺衝擊：跟拍、環繞、滑動變焦（人變大但背景變小／希區考克變焦）、子彈時間（定格環繞）"
+    ],
+    content: `
+      <p>無論是實拍短影音，還是下指令給 AI 影片生成工具（如 Sora、Runway、Kling），如果你只寫「我要電影感」，出來的畫面往往很平淡。這支影片一次對照了 12 種經典運鏡語言：</p>
+      <h3>常用運鏡情緒對照</h3>
+      <ul>
+        <li><strong>推（Push In）與拉（Pull Out）：</strong> 推鏡聚焦情緒與壓迫感；拉鏡則用來交代孤立感或環境全貌。</li>
+        <li><strong>滑動變焦（Dolly Zoom）：</strong> 機位前進同時拉廣角，製造主角內心震撼或世界崩塌的錯覺。</li>
+        <li><strong>節奏原則：</strong> 正常速度用來交代動作，慢動作留給最關鍵的情緒瞬間。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 實用性評估：</strong> 這 12 個術語（Push in, Pull out, Pan, Tilt, Whip pan, Crash zoom, Tracking, Orbit, Dolly zoom, Bullet time）是影視工業與 AI Video Prompt 的通用標準詞彙，熟記後能極大提升出片質感。</p>
+        <p><strong>2. 創作提醒：</strong> 運鏡是為「故事與情緒」服務，切忌為了炫技而在一支短片裡塞滿各種複雜運鏡，反而會讓觀眾頭暈、失焦。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1153355693712218",
+    title: "五個短期拉升顏值與精氣神的「暴力」習慣：斷糖、體態與作息",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "4 分鐘",
+    coverImage: "assets/images/reel_1153355693712218.jpg",
+    videoUrl: "https://drive.google.com/file/d/1-J0yRIvqLhafiQFu72vm0VzpwhII5US2/preview",
+    keyTakeaway: "顏值與氣場的底層邏輯是『抗發炎、去水腫與挺拔體態』，不需要昂貴醫美，從斷糖、早睡與靠牆站立就能看見明顯改變。",
+    keyTakeaways: [
+      "暴力斷糖：戒除含糖飲料與精製糖，減少糖化反應對膠原蛋白的破壞與出油長痘",
+      "重構體態：每天靠牆站立 15 分鐘（後腦勺、肩胛骨、臀部、腳後跟貼牆）改善圓肩駝背",
+      "規律作息與面部減脂：11 點前睡覺消黑眼圈；每日 300~500 大卡熱量缺口＋控鹽多喝水，讓下顎線更立體",
+      "髮型重塑：根據頭骨與臉型設計高顱頂蓬鬆髮型，修飾臉型缺陷"
+    ],
+    content: `
+      <p>許多人花大錢買保養品，卻忽略了熬夜、駝背與高糖飲食對外貌的毀滅性打擊。影片整理了五個成本極低、但對氣色與輪廓改善極為明顯的「硬核習慣」：</p>
+      <ul>
+        <li><strong>戒糖與控鹽：</strong> 減少皮膚暗黃鬆弛與晨起水腫，讓五官立體度自然浮現。</li>
+        <li><strong>體態決定氣場：</strong> 改善烏龜頸與圓肩駝背，穿基本款衣服也能撐出質感。</li>
+        <li><strong>睡眠是最好的眼霜：</strong> 規律早睡能顯著改善皮脂分泌與眼神疲態。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 科學查核：</strong> 過量精製糖確實會透過糖化終產物（AGEs）加速皮膚膠原蛋白老化，並刺激胰島素與 IGF-1 分泌加劇痤瘡；睡眠不足與高鈉飲食也確實是黑眼圈與水腫的主因。</p>
+        <p><strong>2. 修正與提醒：</strong> 影片說「一個月堪比換頭」屬於標題黨修辭；此外，<strong>人體無法「局部減脂」（所謂精準面部減脂）</strong>，只能透過整體體脂率下降來讓臉部輪廓變清晰。靠牆站立若姿勢不當也可能造成腰椎代償，建議搭配核心與背部肌力訓練效果更佳。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-2204961540433123",
+    title: "馬斯克 2026 最新訪談深度拆解：AI 時代的教育、職業與財富所有權",
+    category: "tech",
+    categoryLabel: "科技與 AI",
+    date: "2026-11-14",
+    readTime: "6 分鐘",
+    coverImage: "assets/images/reel_2204961540433123.jpg",
+    videoUrl: "https://drive.google.com/file/d/1GvIsdPPdITpaFjeEysOcgInTqzZ-mhx1/preview",
+    keyTakeaway: "在答案越來越廉價的 AI 時代，普通人真正的護城河是『提出好問題的能力』、『駕馭機器的槓桿』以及『持有生產資料的所有權』。",
+    keyTakeaways: [
+      "教育：別只會刷題背答案，廣泛學習藝術、科學與工程，因為知識面越廣越能向 AI 提對問題",
+      "職業：資本正從『僱人』轉向『僱機器』，未來獎勵的不是最會埋頭苦幹的人，而是能定義問題、調度機器人與 AI 的人",
+      "財富：當物質極大豐富，現金會貶值，唯有代表生產資料所有權的『股權／資產』才能讓你分享機器人創造的財富",
+      "人生：用第一性原理層層追問到最根本的地方，從被動答題者轉變為主動出題者"
+    ],
+    content: `
+      <p>這支影片深度拆解了馬斯克近期的重磅訪談與商業動向（包含對人形機器人規模的預測、以及他推動給孩子送股票的理念），剝開科技外殼，留給普通人一份極度清醒的未來生存指南：</p>
+      <h3>三個顛覆認知的重點</h3>
+      <ul>
+        <li><strong>提問力就是新時代的權力：</strong> 過去教育訓練我們當「標準答案的答題者」，但 AI 答題比人快一萬倍；未來屬於能跨領域整合、提出好問題的「出題者」。</li>
+        <li><strong>工作型態重塑：</strong> 人類一週只能工作幾十小時，機器人可以一週 168 小時連軸轉。普通人必須學會「思考」與「槓桿」，成為 AI 與機器的調度者。</li>
+        <li><strong>看懂所有權（Ownership）：</strong> 嘴上說錢會沒用，行動上卻在分配股權——因為現金會被印鈔與通膨稀釋，而稀缺資源與自動化產能的所有權不會。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 預測與現實查核：</strong> 馬斯克向來以「樂觀甚至激進的時間表」聞名（例如全自動駕駛 FSD 與火星時間表多次延後），他對「10 年內 10 億台人形機器人」的預測屬於願景級推估，實際普及速度將受限於能源、供應鏈與法規。</p>
+        <p><strong>2. 理性解讀：</strong> 儘管時間表可能打折，但<mark>「AI 降低回答成本、凸顯提問與所有權價值」</mark>的長期趨勢極為明確。普通人無需陷入末日焦慮，而是從今天起練習跨界閱讀、把 AI 當副駕駛，並逐步建立自己的資產組合。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1414177844131362",
+    title: "心理學三巨頭的自我療癒三道門：佛洛伊德、阿德勒與榮格",
+    category: "self-cognition",
+    categoryLabel: "自我認知提升",
+    date: "2026-11-14",
+    readTime: "5 分鐘",
+    coverImage: "assets/images/reel_1414177844131362.jpg",
+    videoUrl: "https://drive.google.com/file/d/1nQmZcBXWk4qJe1PqsarquECtGGnwFieD/preview",
+    keyTakeaway: "完整的自我療癒需要穿過三道門：先看懂過去的傷（佛洛伊德），再拿回現在的選擇權（阿德勒），最後接納完整的自己（榮格）。",
+    keyTakeaways: [
+      "第一道門・佛洛伊德（原因論）：讀懂當下情緒失控與討好行為背後的童年創傷與防禦機制，停止過度自責",
+      "第二道門・阿德勒（目的論／勇氣心理學）：過去不能決定未來，真正塑造你的是『你如何解讀經歷並做出選擇』",
+      "第三道門・榮格（陰影整合）：停止抗拒內心的嫉妒、脆弱與不完美，收回對他人的『投射』，活出真實完整的自我"
+    ],
+    content: `
+      <p>為什麼我們讀了很多道理，卻依然過不好這一生？影片用現代心理學三大巨頭的理論，描繪出一個人從內耗走向通透的三層心靈覺醒：</p>
+      <h3>三層心靈覺醒</h3>
+      <ul>
+        <li><strong>理解創傷（佛洛伊德）：</strong> 許多討好型人格或莫名煩躁，其實是當年弱小的自己為了生存而穿上的「鎧甲」。看見那個受傷的自己，才能真正釋懷。</li>
+        <li><strong>奪回主動權（阿德勒）：</strong> 同樣在酗酒父親家庭長大的兩兄弟，一個沉淪、一個自律。經歷無法單向鎖定命運，你可以承認傷害，但不能把它當成永遠擺爛的判決書。</li>
+        <li><strong>整合陰影（榮格）：</strong> 你強烈反感某類人，往往是因為對方身上藏著你不敢接納的自己（投射）。接納光明也接納陰影，靈魂才會獲得真正的自由。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 學術脈絡查核：</strong> 影片將三者串聯為「三階段療癒路徑」是非常優雅的科普整合。需注意的是，當代實證心理學（如 CBT 認知行為治療）在臨床上比傳統精神分析更具可驗證性，但這三套哲學視角對日常自我覺察仍有極高啟發。</p>
+        <p><strong>2. 溫馨提醒：</strong> 影片末尾帶有書單推薦性質；若讀者正經歷<mark>重度憂鬱、創傷後壓力症候群（PTSD）或嚴重失眠</mark>，閱讀心理學書籍僅能作為輔助，務必尋求專業心理諮商師或精神科醫師的協助。</p>
+      </div>
+    `
+  },
+  {
+    id: "reel-1164768126004778",
+    title: "熬夜之後如何科學還「熬夜債」？社會時差、90 分鐘小睡與咖啡因",
+    category: "life-finance",
+    categoryLabel: "生活與理財",
+    date: "2026-11-14",
+    readTime: "3 分鐘",
+    coverImage: "assets/images/reel_1164768126004778.jpg",
+    videoUrl: "https://drive.google.com/file/d/1afIDz5YgFetTmdYm_vaoF_hzp4klvNuj/preview",
+    keyTakeaway: "熬夜後靠白天一口氣睡到下午『補覺』，只會把生理時鐘徹底撥亂；科學還債靠的是『控管起床誤差』、『短暫小睡』與『戒斷午後咖啡因』。",
+    keyTakeaways: [
+      "休息日起床別晚超過 60 分鐘：避免嚴重的『社會時差』導致週日失眠、週一更累；起床後立刻接觸自然光對齊生理時鐘",
+      "白天撐不住就小睡：時間少睡 20 分鐘（避開深睡期），時間充裕最多睡滿 90 分鐘（一個完整週期），絕不一路睡到下午",
+      "咖啡因留給上午：建議睡前至少 8 小時停止攝取咖啡因，把真正的睡眠債留到今晚準時躺平來還"
+    ],
+    content: `
+      <p>昨晚熬夜了，今天打算拉上窗簾睡到下午三點把覺補回來？這支影片指出，這種「報復性補覺」不僅還不了債，還會引發嚴重的<strong>睡眠慣性（越睡越沉）</strong>與<strong>社會時差</strong>，讓你今晚繼續失眠。</p>
+      <h3>科學還「熬夜債」三件事</h3>
+      <ul>
+        <li><strong>固定起床時間＋照光：</strong> 就算昨晚晚睡，隔天起床也盡量別比平常晚超過 1 小時，並立刻拉開窗簾或出門走走，用亮光壓下褪黑激素。</li>
+        <li><strong>精準小睡（Power Nap）：</strong> 20 分鐘快速充電，或 90 分鐘完整週期，鬧鐘一響立刻下床。</li>
+        <li><strong>午後斷咖啡因：</strong> 咖啡只是暫時遮蔽睏意，下午兩點後再喝只會把今天的債滾到明天。</li>
+      </ul>
+      <div class="ai-perspective-box">
+        <h4>⚖️ AI 客觀辯證與實證查核（Critical Fact-Check & Objective Perspective）</h4>
+        <p><strong>1. 睡眠科學查核：</strong> 影片引用的「社會時差（Social Jetlag）」、「美國國家睡眠基金會（NSF）光照與咖啡因建議」以及「20 分鐘／90 分鐘小睡避開睡眠慣性」皆符合主流睡眠醫學實證（如 Matthew Walker 等學者研究）。</p>
+        <p><strong>2. 補充提醒：</strong> 咖啡因的平均半衰期約為 5~7 小時，對咖啡因代謝較慢的人，甚至建議<mark>中午後就停止攝取</mark>。偶爾熬夜可用此法補救，但長期慢性睡眠剝奪仍無法靠週末完全償還。</p>
+      </div>
+    `
+  },
+  {
     id: "anthropic-felix-ai-ambition-altitude-depth-breadth",
     flag: "🚀",
     country: "AI 頂尖實戰心法",
